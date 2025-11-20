@@ -6,57 +6,57 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Kai Zhang (章愷)"
-description              : "Ph.D. Student at Lehigh University. Focusing on Multimodal Learning, Federated Learning and AI in Healthcare. "
-repository               : "taokz/taokz.github.io"
+title                   : "Baowen Zhang (张宝文) - Homepage"
+description             : "Ph.D. Candidate in Sustainable Construction, SUNY-ESF."
+repository              : "cnzhangbaowen/bzhang.github.io"
 google_scholar_stats_use_cdn : false
 
 # google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id     : # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+google_site_verification : # get google_site_verification from https://search.google.com/search-console/about
+bing_site_verification  : # get bing_site_verification from https://www.bing.com/webmasters/about
+baidu_site_verification : # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
 # Site Author
 author:
-  name             : "Kai Zhang (章愷)"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lehigh University"
-  location         : "Bethlehem, PA"
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=XL1iKSEAAAAJ&hl=en"
-  email            : "kaz321@lehigh.edu"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "taokz"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : "kai-zhang-lehigh"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : "kai_z99"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  name                  : "Baowen Zhang (张宝文)"
+  avatar                : "images/Baowen.JPG" # 请确认您已将照片文件放入 images/ 文件夹
+  bio                   : "SUNY-ESF"
+  location              : "Syracuse, NY"
+  employer              :
+  pubmed                : 
+  googlescholar         : "https://scholar.google.com/citations?user=ATUYvjoAAAAJ&hl=en&oi=ao"
+  email                 : "bzhang13@syr.edu"
+  researchgate          : # e.g., "https://www.researchgate.net/profile/yourprofile"
+  uri                   :
+  bitbucket             :
+  codepen               :
+  dribbble              :
+  flickr                :
+  facebook              :
+  foursquare            :
+  github                : "cnzhangbaowen" # 您的 GitHub 用户名
+  google_plus           :
+  keybase               :
+  instagram             :
+  impactstory           : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm                :
+  linkedin              : "https://www.linkedin.com/in/baowen-zhang-18b86916b/"
+  dblp                  : # e.g., "https://dblp.org/pid/xx/xxxx.html"
+  orcid                 : "https://orcid.org/0009-0006-9783-9807"
+  pinterest             :
+  soundcloud            :
+  stackoverflow         : # http://stackoverflow.com/users/123456/username
+  steam                 :
+  tumblr                :
+  twitter               : # 待补充您的 Twitter (X) ID
+  vine                  :
+  weibo                 :
+  xing                  :
+  youtube               :
+  wikipedia             :
 
 
 # Reading Files
@@ -136,7 +136,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # 根据您的位置 Syracuse, NY 设置为美国东部时区
 
 
 # Plugins

@@ -4,8 +4,8 @@ title: ""
 excerpt: ""
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+ - /about/
+ - /about.html
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
@@ -17,86 +17,52 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student in the [Department of Computer Science & Engineering, Lehigh University](https://engineering.lehigh.edu/cse), where I am advised by Prof. [Lichao Sun](https://lichao-sun.github.io). I was a research intern at the [AI&I Department, Mayo Clinic](https://www.mayo.edu/research/departments-divisions/artificial-intelligence-informatics/overview) <img src='./images/logos/mayo.png' style='height: 1.5em;'>, where I am developing vision-language pre-training and federated learning algorithms for electronic health records (EHR).
+Hello! I am **Baowen Zhang**, a Ph.D. Candidate in Sustainable Construction Management at the SUNY College of Environmental Science and Forestry (SUNY-ESF).
 
-My recent research focuses on **Multi-modal and Federated Learning for Biomedicine**, as well as efficient machine/deep learning system design, with the goal of **Accelerating Discovery to Delivery for Clinical Excellence**. Ultimately, my career goal is to develop trustworthy and reliable artificial general intelligence (AGI) systems for computational precision medicine and health.
+I am an engineer deeply committed to bridging traditional engineering with future sustainability through the power of **Data Science** and algorithms. My core mission is to leverage cutting-edge tools—including **Machine Learning (ML)**, **IFC Digital Twin**, and **Energy Modeling**—to solve truly impactful problems that shape a sustainable future for our planet.
 
-I have published approximately 20 research papers with total <a href='https://scholar.google.com/citations?user=XL1iKSEAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+I am driven by the passion to balance **academic rigor** with **industrial applicability**. My research focuses on developing powerful computational methods, from **XGBoost/LSTM** for building energy forecasting to automated **Life Cycle Assessment (LCA)** using digital twin data. I aim to deploy these methods into real-world challenges, accelerating the industrial application of low-carbon materials and improving urban resilience.
 
+I seek to create **"cool" things** that ultimately contribute meaningful impact to the world's environmental efficiency and global goals.
+
+I have published multiple research papers, including works in the **Chemical Engineering Journal** and **Transportation Research Record**.
 
 # 🔥 News
-- *2024.10*: &nbsp; 🔥🔥[TTT-Unet](https://arxiv.org/abs/2409.11299) is accepted by AIM-FM Workshop @ NeurIPS'24! [![](https://img.shields.io/github/stars/rongzhou7/TTT-Unet?style=social)](https://github.com/rongzhou7/TTT-Unet)
-- *2024.10*: &nbsp; 🔥🔥[Biomedical SAM 2](https://www.arxiv.org/abs/2408.03286) is accepted by AIM-FM Workshop @ NeurIPS'24! [![](https://img.shields.io/github/stars/ZhilingYan/Biomedical-SAM-2?style=social)](https://github.com/ZhilingYan/Biomedical-SAM-2)
-- *2024.10*: &nbsp; 🔥🔥[A Comprehensive Survey on Pretrained Foundation Models: A History from BERT to ChatGPT](https://arxiv.org/abs/2302.09419) is accepted by International Journal of Machine Learning and Cybernetics!
-- *2024.07*: &nbsp; 🔥🔥[BiomedGPT: A generalist vision–language foundation model for diverse biomedical tasks](https://www.nature.com/articles/s41591-024-03185-2) is accepted by Nature Medicine!
-- *2024.05*: &nbsp; 🔥🔥[FedMLSecurity: A Benchmark for Attacks and Defenses in Federated Learning and LLMs](https://arxiv.org/abs/2306.04959) is accepted by KDD!
-- *2024.01*: &nbsp; 🎉🎉 I will join  <img src='./images/logos/nec.jpeg' style='height: 1.4em;'>  in Princeton, NJ as a Research Intern during summer, working on Multimodal Large Language Model for Healthcare!
-<!-- 
-- *2023.07-10*: &nbsp; We conduct several evaluations of large foundation models for healthcare, including [Holistic evaluation of GPT-4V for biomedical imaging](https://arxiv.org/abs/2312.05256), [primary outcomes of GPT-4V for radiology and pathology VQA](https://arxiv.org/abs/2310.19061), and [LLM for radiology NLP](https://arxiv.org/abs/2307.13693).
-- *2023.06*: &nbsp; We release [FedMLSecurity: A Benchmark for Attacks and Defenses in Federated Learning and LLMs](https://arxiv.org/abs/2306.04959)!
-- *2023.05*: &nbsp; The first preprint of [BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks](https://arxiv.org/abs/2305.17100) is released. We are still working on it!
-- *2023.04*: &nbsp; 🎉🎉 I will join  <img src='./images/logos/amazon.png' style='height: 1.4em;'>  in San Diego as a Applited Scientist Intern during summer. See you in California!
-- *2023.03*: &nbsp; The first preprint of [FeDepth](https://arxiv.org/abs/2303.04887) is released.
-- *2023.02*: &nbsp; The first preprint of [A Comprehensive Survey on Pretrained Foundation Models: A History from BERT to ChatGPT](https://arxiv.org/abs/2302.09419) is released. We are still working on it!
-- *2023.01*: &nbsp; 🎉🎉 I join <img src='./images/logos/mayo.png' style='height: 1.5em;'> [Mayo ADVANCE Lab](https://www.researchgate.net/lab/Mayo-ADVANCE-Lab-PI-Hongfang-Liu-Hongfang-Liu) as a Bioinformatics Intern.
-- *2022.10*: &nbsp; [FedR](https://aclanthology.org/2022.findings-emnlp.43.pdf) is accepted by EMNLP 22.
-- *2022.09*: &nbsp; 🎉🎉 My intern at Samsung Research America is extended to fall semester!
-- *2022.08*: &nbsp; 🔥🔥[Adversarial Attack and Defense on Graph Data: A Survey](https://ieeexplore.ieee.org/document/9878092) is accepted by TKDE.
-- *2022.06*: &nbsp; I'am honored to be the PC Member of FedGraph2022 @ CIKM22. We need your contributions!
-- *2022.05*: &nbsp; 🎉🎉 I work as Summer Research Intern for Knox - AI/Mobile/Privacy @ <img src='./images/logos/sra.png' style='height: 1.5em;'>.
-- *2022.02*: &nbsp; I'am honored to be invited to present at WSDM'22 FL4P-WSDM Workshop. <a href='https://drive.google.com/file/d/1_Eh9Zf8fICPFu1j1RTCjH7dQ0DIspSkw/view'><img src="https://img.shields.io/badge/slide-important">
--->
+- *Dec 2025*: &nbsp; 🎉🎉 Expected Graduation! Ph.D. in Sustainable Construction Management & Wood Science.
+- *Apr 2025*: &nbsp; 💡 Invited Speaker at FPS-SWST International Conference: "Hardwood CLT Performance and A5 Construction-Phase Carbon Assessment".
+- *Sep 2024*: &nbsp; 🔥🔥 Paper accepted by **Chemical Engineering Journal**: Green co-solvent-assisted one-pot synthesis of high-performance flexible lignin polyurethane foam.
+- *Mar 2023*: &nbsp; 📝 Oral Presentation at ASC Annual Conference: "Machine Learning-Based Energy Retrofit Forecasting for NYC Local Law 97 Compliance".
+
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Medicine</div><img src='images/pub/biomedgpt.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chem Eng J 2024</div><img src='images/pub/lignin_foam.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[BiomedGPT: A Generalist Vision-Language Foundation Model for Diverse Biomedical Tasks](https://www.nature.com/articles/s41591-024-03185-2)
+[Green co-solvent-assisted one-pot synthesis of high-performance flexible lignin polyurethane foam](https://doi.org/10.1016/j.cej.2024.156142)
 
-**Kai Zhang**, Rong Zhou, Eashan Adhikarla, Zhiling Yan, Yixin Liu, Jun Yu, Zhengliang Liu, Xun Chen, Brian D. Davison, Hui Ren, Jing Huang, Chen Chen, Yuyin Zhou, Sunyang Fu, Wei Liu, Tianming Liu, Xiang Li, Yong Chen, Lifang He, James Zou, Quanzheng Li, Hongfang Liu, Lichao Sun
-- **TL;DR**: We introduce a unified and generalist Biomedical Generative Pre-trained Transformer (BiomedGPT) model, which leverages self-supervision on large and diverse datasets to accept multi-modal inputs and perform a range of downstream tasks.
-- **Source Code**: [BiomedGPT ![](https://img.shields.io/github/stars/taokz/BiomedGPT?style=social)](https://github.com/taokz/BiomedGPT).
+Mairui Zhang, Soyeon Jeong, Woongbi Cho, Jiae Ryu, **Baowen Zhang**, Paul Crovella, Arthur J. Ragauskas, Jeong Jae Wie, Chang Geun Yoo
+- **TL;DR**: Enhanced the flexibility and mechanical strength of lignin-based polyurethane foam ($\text{LPUF}$) using a green co-solvent and $\text{PEG}-1000$. Achieved a compressive strength up to $226\text{ kPa}$ and competitive thermal insulation ($\text{R}$-value $> 5$), broadening lignin's utility in sustainable materials.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">FLSys 2023</div><img src='images/pub/fedepth.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TRR 2022</div><img src='images/pub/ahp_markov.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Memory-adaptive Depth-wise Heterogenous Federated Learning](https://arxiv.org/pdf/2303.04887v1.pdf)
+[An Integrated Analytic Hierarchy Process: Markov Model for Rating Condition and Predicting Service Life of Retaining Walls](https://trid.trb.org/view/1996319)
 
-**Kai Zhang**, Yutong Dai, Hongyi Wang, Eric Xing, Xun Chen, Lichao Sun
-- **TL;DR**: We introduce a memory-adaptive depth-wise learning solution in FL, which adaptively decomposes the full model into blocks according to the memory budgets of each client and trains blocks sequentially to obtain a full inference model.
-- **Source Code**: [FeDepth ![](https://img.shields.io/github/stars/taokz/fedepth?style=social)](https://github.com/taokz/FeDepth).
+E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
+- **TL;DR**: Developed an integrated Analytic Hierarchy Process-Markov ($\text{AHP}$-Markov) model for the Tennessee Department of Transportation ($\text{TDOT}$) retaining wall system, providing robust condition rating and service life prediction.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2022</div><img src='images/pub/fedr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chem Eng J (2025)</div><img src='images/pub/lignin_castor.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Efficient Federated Learning on Knowledge Graphs via Privacy-preserving Relation Embedding Aggregation](https://aclanthology.org/2022.findings-emnlp.43.pdf)
+[Effects of lignin on properties and performances of polyurethane foam from lignin-castor oil synergistic bio-polyols](https://experts.esf.edu/esploro/outputs/journalArticle/Effects-of-lignin-on-properties-and/99978525204826)
 
-**Kai Zhang**, Yu Wang, Hongyi Wang, Lifu Huang, Carl Yang, Xun Chen, Lichao Sun
-- **TL;DR**: Our framework allows for sharing entity embeddings of knowledge graphs across multiple clients while protecting privacy to prevent any potential leakage.
-- **Source Code**: [FedR ![](https://img.shields.io/github/stars/taokz/fedr?style=social)](https://github.com/taokz/FedR).
+Soyeon Jeong, Mairui Zhang, Xianzhi Meng, Yunxuan Wang, Brent Scheidemantle, **Baowen Zhang**, et al.
+- **TL;DR**: Demonstrated that synergistic lignin-castor oil bio-polyols successfully balance the drawbacks of individual components, yielding foams with high compressive strength ($\text{up to } 20\text{ psi}$) and superior thermal insulation ($\text{R}$-value up to $5.69\text{ in}^{-1}$).
 </div>
 </div>
 
-- ![TKDE](https://img.shields.io/badge/TKDE-blueviolet) [Adversarial Attack and Defense on Graph Data: A Survey](), Lichao Sun, Yingtong Dou, Carl Yang, **Kai Zhang**, Ji Wang, Philip S. Yu, Lifang He, Bo Li [![](https://img.shields.io/github/stars/safe-graph/graph-adversarial-learning-literature?style=social)](https://github.com/safe-graph/graph-adversarial-learning-literature)
-
-
-<!---
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
--->
+- 📝 [**Under Review**] **Machine learning-based energy retrofit forecasting for multifamily buildings under NYC Local Law 97**, **B. Zhang**, P. Crovella, et al., *Journal of Building Engineering*.
