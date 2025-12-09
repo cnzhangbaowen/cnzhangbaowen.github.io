@@ -35,11 +35,19 @@ I have published multiple research papers, including works in the **Chemical Eng
 
 # 📝 Publications 
 
-- 📝 [**Under Review**] **Machine learning-based energy retrofit forecasting for multifamily buildings under NYC Local Law 97**, **B. Zhang**, P. Crovella, et al., *Journal of Building Engineering*.
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of BE (2025)</div><img src='images/pub/JoBE.jpg' alt="sym" width="60%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Machine learning-based energy retrofit forecasting for multifamily buildings under NYC Local Law 97]
+
+**Baowen Zhang**, P. Crovella.
+</div>
+</div>
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chem Eng J (2025)</div><img src='images/pub/CEJ.jpg' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chem Eng J (2025)</div><img src='images/pub/CEJ.jpg' alt="sym" width="60%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Effects of lignin on properties and performances of polyurethane foam from lignin-castor oil synergistic bio-polyols](https://experts.esf.edu/esploro/outputs/journalArticle/Effects-of-lignin-on-properties-and/99978525204826)
@@ -51,7 +59,7 @@ Soyeon Jeong, Mairui Zhang, Xianzhi Meng, Yunxuan Wang, Brent Scheidemantle, **B
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chem Eng J 2024</div><img src='images/pub/CEJ.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chem Eng J (2024)</div><img src='images/pub/CEJ.jpg' alt="sym" width="60%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Green co-solvent-assisted one-pot synthesis of high-performance flexible lignin polyurethane foam](https://doi.org/10.1016/j.cej.2024.156142)
