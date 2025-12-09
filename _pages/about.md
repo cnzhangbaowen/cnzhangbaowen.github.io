@@ -29,16 +29,25 @@ I have published multiple research papers, including works in the **Chemical Eng
 
 # 🔥 News
 - *Dec 2025*: &nbsp; 🎉🎉 Expected Graduation! Ph.D. in Sustainable Construction Management & Wood Science.
-- *Apr 2025*: &nbsp; 💡 Invited Speaker at FPS-SWST International Conference: "Hardwood CLT Performance and A5 Construction-Phase Carbon Assessment".
+- *Dec 2025*: &nbsp; 🔥🔥 Paper Under review by **Journal of Building Engineering**: Machine learning-based energy retrofit forecasting for multifamily buildings under NYC Local Law 97.
+- *Apr 2025*: &nbsp; 💡💡 Invited Speaker at FPS-SWST International Conference:  
+  "Hardwood CLT Performance and A5 Construction-Phase Carbon Assessment".  
+  📍 **Colorado State University, Fort Collins, CO**  
+  🌎 [View on Google Maps](https://maps.app.goo.gl/4JQNm7P5iJ2CuUnv7)
+
 - *Sep 2024*: &nbsp; 🔥🔥 Paper accepted by **Chemical Engineering Journal**: Green co-solvent-assisted one-pot synthesis of high-performance flexible lignin polyurethane foam.
-- *Mar 2023*: &nbsp; 📝 Oral Presentation at ASC Annual Conference: "Machine Learning-Based Energy Retrofit Forecasting for NYC Local Law 97 Compliance".
+- *Mar 2023*: &nbsp; 📝 Oral Presentation at ASC Annual Conference:  
+  "Machine Learning-Based Energy Retrofit Forecasting for NYC Local Law 97 Compliance".  
+  <i class="fa fa-map-marker"></i> **Auburn University, Auburn, AL**  
+  <a href="https://maps.app.goo.gl/Du9qzXJkUoF4ivmX9" target="_blank">View on Google Maps</a>
+
 
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of BE (2025)</div><img src='images/pub/JoBE.jpg' alt="sym" width="60%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Machine learning-based energy retrofit forecasting for multifamily buildings under NYC Local Law 97]
+Machine learning-based energy retrofit forecasting for multifamily buildings under NYC Local Law 97
 
 **Baowen Zhang**, P. Crovella.
 </div>
