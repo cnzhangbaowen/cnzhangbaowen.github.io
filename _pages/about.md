@@ -40,7 +40,7 @@ I have published multiple research papers, including works in the **Chemical Eng
 - *Mar 2023*: &nbsp; 📝 Oral Presentation at ASC Annual Conference:  
   "Machine Learning-Based Energy Retrofit Forecasting for NYC Local Law 97 Compliance".  
   📍 **Auburn University, Auburn, AL**  
-  🌎 [View on Google Maps]([https://maps.app.goo.gl/Du9qzXJkUoF4ivmX9](https://maps.app.goo.gl/1K64UbHtSmGsfwQcA))
+  🌎 [View on Google Maps](https://maps.app.goo.gl/Du9qzXJkUoF4ivmX9](https://maps.app.goo.gl/1K64UbHtSmGsfwQcA))
 
 
 
