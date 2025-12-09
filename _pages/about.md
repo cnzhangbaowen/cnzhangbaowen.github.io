@@ -35,7 +35,7 @@ I have published multiple research papers, including works in the **Chemical Eng
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chem Eng J 2024</div><img src='images/pub/lignin_foam.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chem Eng J 2024</div><img src='images/pub/CEJ.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Green co-solvent-assisted one-pot synthesis of high-performance flexible lignin polyurethane foam](https://doi.org/10.1016/j.cej.2024.156142)
@@ -45,7 +45,7 @@ Mairui Zhang, Soyeon Jeong, Woongbi Cho, Jiae Ryu, **Baowen Zhang**, Paul Crovel
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TRR 2022</div><img src='images/pub/ahp_markov.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TRR 2022</div><img src='images/pub/TRB.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [An Integrated Analytic Hierarchy Process: Markov Model for Rating Condition and Predicting Service Life of Retaining Walls](https://trid.trb.org/view/1996319)
@@ -55,7 +55,7 @@ E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chem Eng J (2025)</div><img src='images/pub/lignin_castor.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chem Eng J (2025)</div><img src='images/pub/CEJ.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Effects of lignin on properties and performances of polyurethane foam from lignin-castor oil synergistic bio-polyols](https://experts.esf.edu/esploro/outputs/journalArticle/Effects-of-lignin-on-properties-and/99978525204826)
