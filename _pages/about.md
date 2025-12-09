@@ -36,10 +36,12 @@ I have published multiple research papers, including works in the **Chemical Eng
   🌎 [View on Google Maps](https://maps.app.goo.gl/4JQNm7P5iJ2CuUnv7)
 
 - *Sep 2024*: &nbsp; 🔥🔥 Paper accepted by **Chemical Engineering Journal**: Green co-solvent-assisted one-pot synthesis of high-performance flexible lignin polyurethane foam.
+ 
 - *Mar 2023*: &nbsp; 📝 Oral Presentation at ASC Annual Conference:  
   "Machine Learning-Based Energy Retrofit Forecasting for NYC Local Law 97 Compliance".  
-  <i class="fa fa-map-marker"></i> **Auburn University, Auburn, AL**  
-  <a href="https://maps.app.goo.gl/Du9qzXJkUoF4ivmX9" target="_blank">View on Google Maps</a>
+  📍 **Auburn University, Auburn, AL**  
+  🌎 [View on Google Maps]([https://maps.app.goo.gl/Du9qzXJkUoF4ivmX9](https://maps.app.goo.gl/1K64UbHtSmGsfwQcA))
+
 
 
 # 📝 Publications 
