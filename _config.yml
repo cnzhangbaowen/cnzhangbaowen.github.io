@@ -25,7 +25,7 @@ author:
   avatar                : "images/Baowen.JPG"
   bio                   : "SUNY-ESF Ph.D. Candidate" 
   location              : "Syracuse, NY"
-  employer              : SUNY-ESF
+  employer              : "SUNY-ESF"
   pubmed                : 
   googlescholar         : "https://scholar.google.com/citations?user=ATUYvjoAAAAJ&hl=en&oi=ao"
   email                 : "bzhang13@syr.edu"
@@ -40,7 +40,7 @@ author:
   github                : "cnzhangbaowen" # 您的 GitHub 用户名
   google_plus           :
   keybase               :
-  instagram             :
+  instagram             :"https://www.instagram.com/gabriel.bwz/"
   impactstory           : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm                :
   linkedin              : "https://www.linkedin.com/in/baowen-zhang-18b86916b/"
