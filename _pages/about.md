@@ -8,35 +8,26 @@ redirect_from:
  - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<span class='anchor' id='about-me'></span>
-
 Hello! I am **Baowen Zhang**, a Ph.D. Candidate in Sustainable Construction Management at the SUNY College of Environmental Science and Forestry (SUNY-ESF).
 
 I am an engineer deeply committed to bridging traditional engineering with future sustainability through the power of **Data Science** and algorithms. My core mission is to leverage cutting-edge tools—including **Machine Learning (ML)**, **IFC Digital Twin**, and **Energy Modeling**—to solve truly impactful problems that shape a sustainable future for our planet.
 
 I am driven by the passion to balance **academic rigor** with **industrial applicability**. My research focuses on developing powerful computational methods, from **XGBoost/LSTM** for building energy forecasting to automated **Life Cycle Assessment (LCA)** using digital twin data. I aim to deploy these methods into real-world challenges, accelerating the industrial application of low-carbon materials and improving urban resilience.
 
-I seek to create **"cool" things** that ultimately contribute meaningful impact to the world's environmental efficiency and global goals.
+I seek to create **"cool" things** that ultimately contribute meaningful impact to the world's environmental efficiency.
 
 I have published multiple research papers, including works in the **Chemical Engineering Journal** and **Transportation Research Record**.
 
 ## 🛠️ Technical Skills
-**Programming & Data Science:**  Python, R, MATLAB, SQL, VBA 
+**Programming & Data Science:**  Python, R, MATLAB, SQL, VBA  
 **Machine Learning:** XGBoost, LSTM, Random Forest, Neural Networks, Deep Learning, Scikit-learn, AWS  
-**BIM & Energy Modeling:** Revit, AutoCAD, IFC Digital Twin, EnergyPlus, OpenStudio, REScheck, COMcheck 
-**Energy Audit & Compliance**: Building Energy Auditing, ASHRAE Standards, NYC Local Law 97, Energy Code Compliance
+**BIM & Energy Modeling:** Revit, AutoCAD, IFC Digital Twin, EnergyPlus, OpenStudio, REScheck, COMcheck  
+**Energy Audit & Compliance**: Building Energy Auditing, ASHRAE Standards, NYC Local Law 97, Energy Code Compliance  
 **Data Analysis & Visualization**: Pandas, NumPy, Matplotlib, Plotly, OriginLab  
-**Sustainability & LCA Tools**: Life Cycle Assessment (LCA), Tally, Athena Impact Estimator, Carbon Footprint Analysis, Embodied Carbon Calculation
-**Structural Analysis**: Finite Element Analysis (FEA), ANSYS
-**Construction Materials**: Cross-Laminated Timber (CLT), Hardwood Mass Timber, Sustainable Concrete (GGBS, Ground Glass Power), Bio-based Materials
-**Development & Tools**: Git, Docker, Jupyter Notebook, LaTeX
+**Sustainability & LCA Tools**: Life Cycle Assessment (LCA), Tally, Athena Impact Estimator, Carbon Footprint Analysis, Embodied Carbon Calculation  
+**Structural Analysis**: Finite Element Analysis (FEA), ANSYS  
+**Construction Materials**: Cross-Laminated Timber (CLT), Hardwood Mass Timber, Sustainable Concrete (GGBS, Ground Glass Power), Bio-based Materials  
+**Development & Tools**: Git, Docker, Jupyter Notebook, LaTeX  
 
 # 🔥 News
 - *Dec 2025*: &nbsp; 🎉🎉 Expected Graduation! Ph.D. in Sustainable Construction Management & Wood Science.
