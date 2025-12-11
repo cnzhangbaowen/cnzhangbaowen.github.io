@@ -1,10 +1,10 @@
 name: Get Google Scholar Citation Data
 
 on: 
-  page_build: 
-  workflow_dispatch:  # 添加手动触发选项
+  page_build:
+  workflow_dispatch:
   schedule:
-    - cron: '0 8 * * *'  # 每天UTC 8:00运行
+    - cron: '0 8 * * *'
 
 jobs:
   build:
@@ -40,24 +40,3 @@ jobs:
           git add *.json
           git commit -m "Update Google Scholar citation data"
           git push "${remote_repo}" HEAD:google-scholar-stats --force
-```
-
-## 主要改进：
-
-1. ✅ 添加了 `workflow_dispatch` - 允许手动触发
-2. ✅ 升级了 actions 版本（v2 → v3/v4）
-3. ✅ 添加了 Python setup 步骤
-4. ✅ 添加了 email 配置
-5. ✅ 保持了原有的推送到 `google-scholar-stats` 分支的逻辑
-
-## 下一步操作：
-
-1. **确认 Secret 已设置**：
-   - 去 Settings → Secrets and variables → Actions
-   - 确认有 `GOOGLE_SCHOLAR_ID` = `ATUYvjoAAAAJ`
-
-2. **确认有 requirements.txt**：
-   在 `google_scholar_crawler/requirements.txt` 应该包含：
-```
-   scholarly
-   jsonpickle
