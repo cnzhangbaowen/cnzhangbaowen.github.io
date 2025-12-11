@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Baowen Zhang - Homepage",
+    "short_name": "Baowen Zhang",
     "icons": [
        {
           "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
         "type": "image/png"
         }
     ],
-    "theme_color": "#FFFFFF",
+    "theme_color": "#F76900",
     "background_color": "#FFFFFF",
     "display": "standalone"
  }
