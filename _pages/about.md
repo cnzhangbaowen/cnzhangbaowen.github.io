@@ -28,12 +28,15 @@ I seek to create **"cool" things** that ultimately contribute meaningful impact 
 I have published multiple research papers, including works in the **Chemical Engineering Journal** and **Transportation Research Record**.
 
 ## 🛠️ Technical Skills
-**Programming & Data Science:** Python, R, MATLAB, SQL  
-**Machine Learning:** XGBoost, LSTM, Random Forest, Neural Networks  
-**BIM & Energy Modeling:** Revit, IFC, EnergyPlus, OpenStudio  
-**Data Analysis & Visualization:** Pandas, NumPy, Matplotlib, Plotly  
-**Sustainability Tools:** Life Cycle Assessment (LCA), Carbon Footprint Analysis  
-**Development:** Git, Docker, Jupyter Notebook
+**Programming & Data Science:**  Python, R, MATLAB, SQL, VBA 
+**Machine Learning:** XGBoost, LSTM, Random Forest, Neural Networks, Deep Learning, Scikit-learn, AWS  
+**BIM & Energy Modeling:** Revit, AutoCAD, IFC Digital Twin, EnergyPlus, OpenStudio, REScheck, COMcheck 
+**Energy Audit & Compliance**: Building Energy Auditing, ASHRAE Standards, NYC Local Law 97, Energy Code Compliance
+**Data Analysis & Visualization**: Pandas, NumPy, Matplotlib, Plotly, OriginLab  
+**Sustainability & LCA Tools**: Life Cycle Assessment (LCA), Tally, Athena Impact Estimator, Carbon Footprint Analysis, Embodied Carbon Calculation
+**Structural Analysis**: Finite Element Analysis (FEA), ANSYS
+**Construction Materials**: Cross-Laminated Timber (CLT), Hardwood Mass Timber, Sustainable Concrete (GGBS, Ground Glass Power), Bio-based Materials
+**Development & Tools**: Git, Docker, Jupyter Notebook, LaTeX
 
 # 🔥 News
 - *Dec 2025*: &nbsp; 🎉🎉 Expected Graduation! Ph.D. in Sustainable Construction Management & Wood Science.
@@ -113,7 +116,7 @@ E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
 - **B.S. in Construction Engineering and Management**  
   *Tianjin University of Technology*, 2018
 
-# 💼 Research Experience
+# 💼 Experience
 **Graduate Research Assistant** | SUNY-ESF | 2020 - 2023 & 2024 - 2025
 - Developing machine learning models for building energy prediction and retrofit optimization
 - Conducting life cycle assessments of sustainable construction materials
