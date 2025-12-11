@@ -127,9 +127,11 @@ E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
 
 ---
 
+---
+
 <div style="text-align: center; margin-top: 40px; padding: 20px; background-color: #f5f5f5; border-radius: 10px;">
   <p style="font-size: 16px; color: #666;">
-    📄 <a href="/Baowen_Zhang_CV.pdf" download style="color: #F76900; font-weight: bold; text-decoration: none;">Download my CV (PDF)</a> for more details about my research and experience<br>
-    📧 Feel free to reach out: <a href="mailto:bzhang13@syr.edu" style="color: #F76900; text-decoration: none;">bzhang13@syr.edu</a>
+    📄 <a href="/Baowen_Zhang_CV.pdf.pdf" target="_blank" style="color: #F76900; font-weight: bold; text-decoration: underline;">Download my CV (PDF)</a> for more details about my research and experience<br><br>
+    📧 Feel free to reach out: <a href="mailto:bzhang13@syr.edu" style="color: #F76900; font-weight: bold; text-decoration: underline;">bzhang13@syr.edu</a>
   </p>
 </div>
