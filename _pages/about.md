@@ -27,6 +27,14 @@ I seek to create **"cool" things** that ultimately contribute meaningful impact 
 
 I have published multiple research papers, including works in the **Chemical Engineering Journal** and **Transportation Research Record**.
 
+## 🛠️ Technical Skills
+**Programming & Data Science:** Python, R, MATLAB, SQL  
+**Machine Learning:** XGBoost, LSTM, Random Forest, Neural Networks  
+**BIM & Energy Modeling:** Revit, IFC, EnergyPlus, OpenStudio  
+**Data Analysis & Visualization:** Pandas, NumPy, Matplotlib, Plotly  
+**Sustainability Tools:** Life Cycle Assessment (LCA), Carbon Footprint Analysis  
+**Development:** Git, Docker, Jupyter Notebook
+
 # 🔥 News
 - *Dec 2025*: &nbsp; 🎉🎉 Expected Graduation! Ph.D. in Sustainable Construction Management & Wood Science.
 - *Dec 2025*: &nbsp; 🔥🔥 Paper Under review by **Journal of Building Engineering**: Machine learning-based energy retrofit forecasting for multifamily buildings under NYC Local Law 97.
@@ -34,58 +42,92 @@ I have published multiple research papers, including works in the **Chemical Eng
   "Hardwood CLT Performance and A5 Construction-Phase Carbon Assessment".  
   📍 **Colorado State University, Fort Collins, CO**  
   🌎 [View on Google Maps](https://maps.app.goo.gl/4JQNm7P5iJ2CuUnv7)
-
 - *Sep 2024*: &nbsp; 🔥🔥 Paper accepted by **Chemical Engineering Journal**: Green co-solvent-assisted one-pot synthesis of high-performance flexible lignin polyurethane foam.
- 
 - *Mar 2023*: &nbsp; 📝 Oral Presentation at ASC Annual Conference:  
   "Machine Learning-Based Energy Retrofit Forecasting for NYC Local Law 97 Compliance".  
   📍 **Auburn University, Auburn, AL**  
-  🌎 [View on Google Maps](https://maps.app.goo.gl/Du9qzXJkUoF4ivmX9](https://maps.app.goo.gl/1K64UbHtSmGsfwQcA))
-
-
+  🌎 [View on Google Maps](https://maps.app.goo.gl/1K64UbHtSmGsfwQcA)
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of BE (2025)</div><img src='images/pub/JoBE.jpg' alt="sym" width="50%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of BE (Under Review)</div><img src='images/pub/JoBE.jpg' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Machine learning-based energy retrofit forecasting for multifamily buildings under NYC Local Law 97
-**Baowen Zhang**, P. Crovella.
+**Machine learning-based energy retrofit forecasting for multifamily buildings under NYC Local Law 97**
+
+**Baowen Zhang**, P. Crovella
+
+*Journal of Building Engineering* (Under Review)
+
+- Developed predictive models using XGBoost and LSTM to forecast energy retrofit needs for NYC multifamily buildings under Local Law 97 compliance requirements.
 </div>
 </div>
-
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chem Eng J (2025)</div><img src='images/pub/CEJ.jpg' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Effects of lignin on properties and performances of polyurethane foam from lignin-castor oil synergistic bio-polyols](https://experts.esf.edu/esploro/outputs/journalArticle/Effects-of-lignin-on-properties-and/99978525204826)
+[**Effects of lignin on properties and performances of polyurethane foam from lignin-castor oil synergistic bio-polyols**](https://experts.esf.edu/esploro/outputs/journalArticle/Effects-of-lignin-on-properties-and/99978525204826)
 
 Soyeon Jeong, Mairui Zhang, Xianzhi Meng, Yunxuan Wang, Brent Scheidemantle, **Baowen Zhang**, et al.
-- Demonstrated that synergistic lignin-castor oil bio-polyols successfully balance the drawbacks of individual components, yielding foams with high compressive strength ($\text{up to } 20\text{ psi}$) and superior thermal insulation ($\text{R}$-value up to $5.69\text{ in}^{-1}$).
+
+*Chemical Engineering Journal*, 2025
+
+- Demonstrated that synergistic lignin-castor oil bio-polyols successfully balance the drawbacks of individual components, yielding foams with high compressive strength (up to 20 psi) and superior thermal insulation (R-value up to 5.69 in⁻¹).
 </div>
 </div>
-
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Chem Eng J (2024)</div><img src='images/pub/CEJ.jpg' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Green co-solvent-assisted one-pot synthesis of high-performance flexible lignin polyurethane foam](https://doi.org/10.1016/j.cej.2024.156142)
+[**Green co-solvent-assisted one-pot synthesis of high-performance flexible lignin polyurethane foam**](https://doi.org/10.1016/j.cej.2024.156142)
 
 Mairui Zhang, Soyeon Jeong, Woongbi Cho, Jiae Ryu, **Baowen Zhang**, Paul Crovella, Arthur J. Ragauskas, Jeong Jae Wie, Chang Geun Yoo
-- Enhanced the flexibility and mechanical strength of lignin-based polyurethane foam ($\text{LPUF}$) using a green co-solvent and $\text{PEG}-1000$. Achieved a compressive strength up to $226\text{ kPa}$ and competitive thermal insulation ($\text{R}$-value $> 5$), broadening lignin's utility in sustainable materials.
+
+*Chemical Engineering Journal*, 2024, 156142
+
+- Enhanced the flexibility and mechanical strength of lignin-based polyurethane foam (LPUF) using a green co-solvent and PEG-1000. Achieved a compressive strength up to 226 kPa and competitive thermal insulation (R-value > 5), broadening lignin's utility in sustainable materials.
 </div>
 </div>
 
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TRR 2022</div><img src='images/pub/TRB.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TRR (2022)</div><img src='images/pub/TRB.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[An Integrated Analytic Hierarchy Process: Markov Model for Rating Condition and Predicting Service Life of Retaining Walls](https://trid.trb.org/view/1996319)
+[**An Integrated Analytic Hierarchy Process-Markov Model for Rating Condition and Predicting Service Life of Retaining Walls**](https://trid.trb.org/view/1996319)
 
 E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
-- Developed an integrated Analytic Hierarchy Process-Markov ($\text{AHP}$-Markov) model for the Tennessee Department of Transportation ($\text{TDOT}$) retaining wall system, providing robust condition rating and service life prediction.
+
+*Transportation Research Record*, 2022
+
+- Developed an integrated Analytic Hierarchy Process-Markov (AHP-Markov) model for the Tennessee Department of Transportation (TDOT) retaining wall system, providing robust condition rating and service life prediction.
 </div>
+</div>
+
+# 🎓 Education
+- **Ph.D. in Sustainable Construction Management & Wood Science**  
+  *SUNY College of Environmental Science and Forestry*, Expected Dec 2025  
+  Advisor: Dr. Paul Crovella
+  
+- **M.S. in Construction Engineering and Management**  
+  *Stevens Institue of Techbology*, 2020
+  
+- **B.S. in Civil Engineering**  
+  *Tianjin University of Technology*, 2018
+
+# 💼 Research Experience
+**Graduate Research Assistant** | SUNY-ESF | 2020 - Present
+- Developing machine learning models for building energy prediction and retrofit optimization
+- Conducting life cycle assessments of sustainable construction materials
+- Building IFC-based digital twin systems for carbon footprint analysis
+
+**Research Assistant** | Tennessee State University | 2018 - 2020
+- Developed AHP-Markov models for infrastructure condition assessment
+- Collaborated with TDOT on retaining wall management systems
+
+---
+
+<div style="text-align: center; margin-top: 40px; padding: 20px; background-color: #f5f5f5; border-radius: 10px;">
+  <p style="font-size: 16px; color: #666;">
+    📄 <strong>Download my CV</strong> for more details about my research and experience<br>
+    📧 Feel free to reach out: <a href="mailto:bzhang13@syr.edu">bzhang13@syr.edu</a>
+  </p>
 </div>
