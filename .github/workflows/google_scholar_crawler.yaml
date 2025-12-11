@@ -1,29 +1,63 @@
-name: Get Citation Data
+name: Get Google Scholar Citation Data
 
 on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
+  page_build: 
+  workflow_dispatch:  # 添加手动触发选项
+  schedule:
+    - cron: '0 8 * * *'  # 每天UTC 8:00运行
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Install Reqs
-      run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
-      run: |
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-        cd ./results
-        git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          
+      - name: Install dependencies
+        run: |
+          cd ./google_scholar_crawler
+          pip3 install -r requirements.txt
+          
+      - name: Run Google Scholar crawler
+        env: 
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        run: |
+          cd ./google_scholar_crawler
+          python3 main.py
+          
+      - name: Push results to google-scholar-stats branch
+        run: |
+          cd ./google_scholar_crawler/results
+          git init
+          git config --local user.name "${GITHUB_ACTOR}"
+          git config --local user.email "action@github.com"
+          export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+          git add *.json
+          git commit -m "Update Google Scholar citation data"
+          git push "${remote_repo}" HEAD:google-scholar-stats --force
+```
+
+## 主要改进：
+
+1. ✅ 添加了 `workflow_dispatch` - 允许手动触发
+2. ✅ 升级了 actions 版本（v2 → v3/v4）
+3. ✅ 添加了 Python setup 步骤
+4. ✅ 添加了 email 配置
+5. ✅ 保持了原有的推送到 `google-scholar-stats` 分支的逻辑
+
+## 下一步操作：
+
+1. **确认 Secret 已设置**：
+   - 去 Settings → Secrets and variables → Actions
+   - 确认有 `GOOGLE_SCHOLAR_ID` = `ATUYvjoAAAAJ`
+
+2. **确认有 requirements.txt**：
+   在 `google_scholar_crawler/requirements.txt` 应该包含：
+```
+   scholarly
+   jsonpickle
