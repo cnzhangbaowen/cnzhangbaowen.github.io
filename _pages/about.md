@@ -104,30 +104,26 @@ E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
 
 # 🎓 Education
 - **Ph.D. in Sustainable Construction Management & Wood Science**  
-  *SUNY College of Environmental Science and Forestry*, Expected Dec 2025  
+  *SUNY College of Environmental Science and Forestry*, 2025  
   Advisor: Dr. Paul Crovella
   
-- **M.S. in Construction Engineering and Management**  
+- **M.Eng. in Construction Management**  
   *Stevens Institue of Techbology*, 2020
   
-- **B.S. in Civil Engineering**  
+- **B.S. in Construction Engineering and Management**  
   *Tianjin University of Technology*, 2018
 
 # 💼 Research Experience
-**Graduate Research Assistant** | SUNY-ESF | 2020 - Present
+**Graduate Research Assistant** | SUNY-ESF | 2020 - 2023 & 2024 - 2025
 - Developing machine learning models for building energy prediction and retrofit optimization
 - Conducting life cycle assessments of sustainable construction materials
 - Building IFC-based digital twin systems for carbon footprint analysis
 
-**Research Assistant** | Tennessee State University | 2018 - 2020
+**Research Assistant** | Tennessee State University | 2023 - 2024
 - Developed AHP-Markov models for infrastructure condition assessment
 - Collaborated with TDOT on retaining wall management systems
 
----
 
----
-
----
 
 <div style="text-align: center; margin-top: 40px; padding: 20px; background-color: #f5f5f5; border-radius: 10px;">
   <p style="font-size: 16px; color: #666;">
