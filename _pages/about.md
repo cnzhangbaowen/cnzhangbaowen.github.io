@@ -30,6 +30,7 @@ I have published multiple research papers, including works in the **Chemical Eng
 **Development & Tools**: Git, Docker, Jupyter Notebook, LaTeX  
 
 # 🔥 News
+- *Jan 2026*: &nbsp; 🚀🚀 Incoming Assistant Professor of Construction Management at Colorado State University Pueblo. 📍 Pueblo, CO
 - *Dec 2025*: &nbsp; 🎉🎉 Expected Graduation! Ph.D. in Sustainable Construction Management & Wood Science.
 - *Dec 2025*: &nbsp; 🔥🔥 Paper Under review by **Journal of Building Engineering**: Machine learning-based energy retrofit forecasting for multifamily buildings under NYC Local Law 97.
 - *Apr 2025*: &nbsp; 💡💡 Invited Speaker at FPS-SWST International Conference:  
