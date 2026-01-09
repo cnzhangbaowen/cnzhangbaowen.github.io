@@ -44,7 +44,17 @@ I have published multiple research papers, including works in the **Chemical Eng
   🌎 [View on Google Maps](https://maps.app.goo.gl/1K64UbHtSmGsfwQcA)
 
 # 📝 Publications
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of BE (Under Review)</div><img src='images/pub/JoBE.jpg' alt="sym" width="50%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+**Designing sustainable concrete to maximize the use of local waste material: Mechanical, durability and sustainability analysis**
+
+**Baowen Zhang**,  Minhajul Islam Aman, Paul Crovella, PhD ,Dr. Md. Uzzal Hossain
+
+*Journal of Building Engineering* (Under Review)
+
+</div>
+</div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of BE (Under Review)</div><img src='images/pub/JoBE.jpg' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
