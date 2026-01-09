@@ -49,10 +49,11 @@ I have published multiple research papers, including works in the **Chemical Eng
 
 **Designing sustainable concrete to maximize the use of local waste material: Mechanical, durability and sustainability analysis**
 
-**Baowen Zhang**,  Minhajul Islam Aman, Paul Crovella, PhD ,Dr. Md. Uzzal Hossain
+**Baowen Zhang**,  Minhajul Islam Aman, Paul Crovella , Md. Uzzal Hossain
 
 *Journal of Building Engineering* (Under Review)
 
+- Developed high-performance ternary blended concrete with 80% cement replacement using Ground Glass Powder (GGP) and GGBS, achieving a 66% reduction in CO₂ emissions and a 13-fold increase in durability through synergistic material effects..
 </div>
 </div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of BE (Under Review)</div><img src='images/pub/JoBE.jpg' alt="sym" width="50%"></div></div>
@@ -62,7 +63,7 @@ I have published multiple research papers, including works in the **Chemical Eng
 
 **Baowen Zhang**, P. Crovella
 
-*Journal of Building Engineering* (Under Review)
+*Journal of Building Engineering* (2026)
 
 - Developed predictive models using XGBoost and LSTM to forecast energy retrofit needs for NYC multifamily buildings under Local Law 97 compliance requirements.
 </div>
