@@ -18,7 +18,7 @@ I seek to create **"cool" things** that ultimately contribute meaningful impact 
 
 I have published multiple research papers, including works in the **Chemical Engineering Journal** and **Transportation Research Record**.
 
-## 🛠️ Technical Skills
+## 🛠️ Technical Skills {#skills}
 **Programming & Data Science:**  Python, R, MATLAB, SQL, VBA  
 **Machine Learning:** XGBoost, LSTM, Random Forest, Neural Networks, Deep Learning, Scikit-learn, AWS  
 **BIM & Energy Modeling:** Revit, AutoCAD, IFC Digital Twin, EnergyPlus, OpenStudio, REScheck, COMcheck  
@@ -29,7 +29,7 @@ I have published multiple research papers, including works in the **Chemical Eng
 **Construction Materials**: Cross-Laminated Timber (CLT), Hardwood Mass Timber, Sustainable Concrete (GGBS, Ground Glass Powder), Bio-based Materials  
 **Development & Tools**: Git, Docker, Jupyter Notebook, LaTeX  
 
-# 🔥 News
+# 🔥 News {#news}
 - *Jan 2026*: &nbsp; 🚀🚀 Incoming Assistant Professor of Construction Management at Colorado State University Pueblo. 📍 Pueblo, CO
 - *Dec 2025*: &nbsp; 🎉🎉 Expected Graduation! Ph.D. in Sustainable Construction Management & Wood Science.
 - *Dec 2025*: &nbsp; 🔥🔥 Paper Under review by **Journal of Building Engineering**: Machine learning-based energy retrofit forecasting for multifamily buildings under NYC Local Law 97.
@@ -43,7 +43,7 @@ I have published multiple research papers, including works in the **Chemical Eng
   📍 **Auburn University, Auburn, AL**  
   🌎 [View on Google Maps](https://maps.app.goo.gl/1K64UbHtSmGsfwQcA)
 
-# 📝 Publications 
+# 📝 Publications {#publications}
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of BE (Under Review)</div><img src='images/pub/JoBE.jpg' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -97,7 +97,7 @@ E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
 </div>
 </div>
 
-# 🎓 Education
+# 🎓 Education {#education}
 - **Ph.D. in Sustainable Construction Management & Wood Science**  
   *SUNY College of Environmental Science and Forestry*, 2025  
   Advisor: Dr. Paul Crovella
@@ -108,7 +108,7 @@ E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
 - **B.S. in Construction Engineering and Management**  
   *Tianjin University of Technology*, 2018
 
-# 🔬 Research Projects
+# 🔬 Research Projects {#experience}
 
 ### 🏗️ 1. IFC-Based Digital Twin for Automated Energy Modeling
 **Lead Researcher** | *BIM/BEM Automation & Open Standards*
