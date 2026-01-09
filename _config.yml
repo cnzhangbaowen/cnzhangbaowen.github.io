@@ -1,63 +1,59 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# This config file is meant for settings that affect your entire site.
 
 # Site Settings
-title                   : "Baowen Zhang (张宝文) - Homepage"
-description             : "Ph.D. Candidate in Sustainable Construction, SUNY-ESF."
-repository              : "cnzhangbaowen/bzhang.github.io"
+title                        : "Baowen Zhang (张宝文) - Homepage"
+description                  : "Incoming Assistant Professor of Construction Management at CSU Pueblo."
+repository                   : "cnzhangbaowen/bzhang.github.io"
 google_scholar_stats_use_cdn : false
 
 # google analytics
-google_analytics_id     : # get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id      : # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
 google_site_verification : # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification  : # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification : # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+bing_site_verification   : # get bing_site_verification from https://www.bing.com/webmasters/about
+baidu_site_verification  : # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
 # Site Author
 author:
-  name                  : "Baowen Zhang (张宝文)"
-  avatar                : "images/Baowen.JPG"
-  bio                   : "SUNY-ESF Ph.D. Candidate" 
-  location              : "Syracuse, NY"
-  employer              : "SUNY-ESF"
-  pubmed                : 
-  googlescholar         : "https://scholar.google.com/citations?user=ATUYvjoAAAAJ&hl=en&oi=ao"
-  email                 : "bzhang13@syr.edu"
-  researchgate          : # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri                   :
-  bitbucket             :
-  codepen               :
-  dribbble              :
-  flickr                :
-  facebook              :
-  foursquare            :
-  github                : "cnzhangbaowen" # 您的 GitHub 用户名
-  google_plus           :
-  keybase               :
-  instagram             :"https://www.instagram.com/gabriel.bwz/"
-  impactstory           : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm                :
-  linkedin              : "baowen-zhang-18b86916b"
-  dblp                  : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid                 : "https://orcid.org/0009-0006-9783-9807"
-  pinterest             :
-  soundcloud            :
-  stackoverflow         : # http://stackoverflow.com/users/123456/username
-  steam                 :
-  tumblr                :
-  twitter               : # 待补充您的 Twitter (X) ID
-  vine                  :
-  weibo                 :
-  xing                  :
-  youtube               :
-  wikipedia             :
-
+  name        : "Baowen Zhang (张宝文)"
+  avatar      : "images/Baowen.JPG"
+  bio         : "Incoming Asst. Prof. @ CSU Pueblo"
+  location    : "Syracuse, NY / Pueblo, CO"
+  employer    : "CSU Pueblo"
+  pubmed      :
+  googlescholar : "https://scholar.google.com/citations?user=ATUYvjoAAAAJ&hl=en&oi=ao"
+  email       : "bzhang13@syr.edu"
+  researchgate : # e.g., "https://www.researchgate.net/profile/yourprofile"
+  uri         :
+  bitbucket   :
+  codepen     :
+  dribbble    :
+  flickr      :
+  facebook    :
+  foursquare  :
+  github      : "cnzhangbaowen"
+  google_plus :
+  keybase     :
+  instagram   : "https://www.instagram.com/gabriel.bwz/"
+  impactstory : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm      :
+  linkedin    : "baowen-zhang-18b86916b"
+  dblp        : # e.g., "https://dblp.org/pid/xx/xxxx.html"
+  orcid       : "https://orcid.org/0009-0006-9783-9807"
+  pinterest   :
+  soundcloud  :
+  stackoverflow : # http://stackoverflow.com/users/123456/username
+  steam       :
+  tumblr      :
+  twitter     : # 待补充您的 Twitter (X) ID
+  vine        :
+  weibo       :
+  xing        :
+  youtube     :
+  wikipedia   :
 
 # Reading Files
 include:
@@ -97,14 +93,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -127,17 +121,14 @@ defaults:
       layout: default
       author_profile: true
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  style: compressed
 
 # Outputting
 permalink: /:categories/:title/
-timezone: America/New_York # 根据您的位置 Syracuse, NY 设置为美国东部时区
-
+timezone: America/New_York
 
 # Plugins
 plugins:
@@ -146,7 +137,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
+
+# whitelist
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -154,9 +146,7 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-
 # HTML Compression
-# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
