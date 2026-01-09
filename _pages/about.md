@@ -26,7 +26,7 @@ I have published multiple research papers, including works in the **Chemical Eng
 **Data Analysis & Visualization**: Pandas, NumPy, Matplotlib, Plotly, OriginLab  
 **Sustainability & LCA Tools**: Life Cycle Assessment (LCA), Tally, Athena Impact Estimator, Carbon Footprint Analysis, Embodied Carbon Calculation  
 **Structural Analysis**: Finite Element Analysis (FEA), ANSYS  
-**Construction Materials**: Cross-Laminated Timber (CLT), Hardwood Mass Timber, Sustainable Concrete (GGBS, Ground Glass Power), Bio-based Materials  
+**Construction Materials**: Cross-Laminated Timber (CLT), Hardwood Mass Timber, Sustainable Concrete (GGBS, Ground Glass Powder), Bio-based Materials  
 **Development & Tools**: Git, Docker, Jupyter Notebook, LaTeX  
 
 # 🔥 News
@@ -103,26 +103,52 @@ E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
   Advisor: Dr. Paul Crovella
   
 - **M.Eng. in Construction Management**  
-  *Stevens Institue of Techbology*, 2020
+  *Stevens Institute of Technology*, 2020
   
 - **B.S. in Construction Engineering and Management**  
   *Tianjin University of Technology*, 2018
 
-# 💼 Experience
-**Graduate Research Assistant** | SUNY-ESF | 2020 - 2023 & 2024 - 2025
-- Developing machine learning models for building energy prediction and retrofit optimization
-- Conducting life cycle assessments of sustainable construction materials
-- Building IFC-based digital twin systems for carbon footprint analysis
+# 🔬 Research Projects
 
-**Research Assistant** | Tennessee State University | 2023 - 2024
-- Developed AHP-Markov models for infrastructure condition assessment
-- Collaborated with TDOT on retaining wall management systems
+### 🏗️ 1. IFC-Based Digital Twin for Automated Energy Modeling
+**Lead Researcher** | *BIM/BEM Automation & Open Standards*
+- **The Vision**: Bridging the gap between static architectural BIM and dynamic energy performance using OpenBIM standards.
+- **Key Contribution**: Architected a seamless pipeline enriching **IFC4/IFC5 schemas** with thermal/HVAC attributes. Developed automated workflows using **Rhino 8, Grasshopper, and EnergyPlus** via **ifcopenshell** to preserve semantic integrity.
+- **Innovation**: Integrated **Point-Cloud and Thermal Imagery** alignment for automated model calibration, enabling a "Physical-to-Digital" feedback loop for existing building retrofits.
+- **Impact**: Supports large-scale LCA studies for mass-timber and smart construction planning.
+
+> ![Figure 1: IFC-to-BEM Workflow](https://via.placeholder.com/800x400.png?text=Workflow+Diagram:+IFC+Semantic+Enrichment+to+EnergyPlus)
+> *Caption: Developed BIM-to-BEM interoperability framework for high-fidelity energy simulation.*
+
+---
+
+### 🌿 2. Sustainable Materials: Low-Carbon SCMs & Mass-Timber LCA
+**Principal Investigator** | *Decarbonization & Material Science*
+- **The Vision**: Decarbonizing the built environment through high-performance, low-carbon alternative materials.
+- **Key Contribution**: Investigated the techno-economic performance of concrete with **up to 80% cement replacement** (GGBS/PFA). Validated structural integrity (4000 psi) through ASTM-based mechanical testing (C78, C496).
+- **LCA Expertise**: Conducted comprehensive **Cradle-to-Gate Life Cycle Assessments** to quantify the carbon-sequestration benefits of mass-timber versus reinforced concrete.
+- **Impact**: Provided industry-grade guidance for SCM adoption in resilient infrastructure.
+
+> ![Figure 2: Material Testing & LCA](https://via.placeholder.com/800x400.png?text=LCA+Comparison:+Mass-Timber+vs.+RC+Frames)
+> *Caption: Embodied carbon reduction analysis and mechanical validation of low-carbon SCM concrete.*
+
+---
+
+### 🌉 3. Stochastic Modeling for Infrastructure Asset Management
+**Lead Analyst** | *Infrastructure Resilience & Predictive Analytics*
+- **The Vision**: Transforming infrastructure maintenance from reactive to proactive using probabilistic modeling.
+- **Key Contribution**: Developed **AHP-Markov Chain models** to forecast the long-term deterioration of civil infrastructure assets.
+- **Collaboration**: Partnered with the **Tennessee Department of Transportation (TDOT)** to optimize maintenance protocols for regional retaining wall systems.
+- **Impact**: Created a decision-support framework that optimizes resource allocation and extends the service life of critical transportation assets.
+
+> ![Figure 3: Markov Chain Prediction](https://via.placeholder.com/800x400.png?text=Infrastructure+Deterioration+Forecasting+Model)
+> *Caption: Predictive deterioration curves for TDOT asset management optimization.*
 
 
 
 <div style="text-align: center; margin-top: 40px; padding: 20px; background-color: #f5f5f5; border-radius: 10px;">
   <p style="font-size: 16px; color: #666;">
-    📄 <a href="/Baowen_Zhang_CV.pdf.pdf" target="_blank" style="color: #F76900; font-weight: bold; text-decoration: underline;">Download my CV (PDF)</a> for more details about my research and experience<br><br>
+    📄 <a href="/Baowen_Zhang_CV.pdf" target="_blank" style="color: #F76900; font-weight: bold; text-decoration: underline;">Download my CV (PDF)</a> for more details about my research and experience<br><br>
     📧 Feel free to reach out: <a href="mailto:bzhang13@syr.edu" style="color: #F76900; font-weight: bold; text-decoration: underline;">bzhang13@syr.edu</a>
   </p>
 </div>
