@@ -8,15 +8,18 @@ redirect_from:
  - /about.html
 ---
 
-Hello! I am **Baowen Zhang**, a Ph.D. Candidate in Sustainable Construction Management at the SUNY College of Environmental Science and Forestry (SUNY-ESF).
+Hello! I am **Baowen Zhang (张宝文)**, a Lecturer in Construction Management at **Colorado State University Pueblo**🐺.
 
-I am an engineer deeply committed to bridging traditional engineering with future sustainability through the power of **Data Science** and algorithms. My core mission is to leverage cutting-edge tools—including **Machine Learning (ML)**, **IFC Digital Twin**, and **Energy Modeling**—to solve truly impactful problems that shape a sustainable future for our planet.
+As an educator🧑‍🏫, I bring real-world practice and emerging technologies into the classroom to make learning engaging, applied, and industry-relevant. I use **case-based** and **project-driven** teaching to help students connect core construction principles with modern workflows such as **BIM**, **digital twins**, **energy modeling**, and **data analytics**. My goal is to help students build strong fundamentals while developing the hands-on skills and problem-solving mindset needed for today’s rapidly evolving construction industry.
 
-I am driven by the passion to balance **academic rigor** with **industrial applicability**. My research focuses on developing powerful computational methods, from **XGBoost/LSTM** for building energy forecasting to automated **Life Cycle Assessment (LCA)** using digital twin data. I aim to deploy these methods into real-world challenges, accelerating the industrial application of low-carbon materials and improving urban resilience.
+I am an engineer and researcher🎓 committed to bridging traditional engineering with future sustainability through the power of **Data Science** and algorithms. My mission is to leverage cutting-edge tools—including **Machine Learning (ML)**, **IFC-based Digital Twins**, and **Building Energy Modeling**—to solve impactful real-world problems and support a more sustainable built environment.
 
-I seek to create **"cool" things** that ultimately contribute meaningful impact to the world's environmental efficiency.
+I am driven by the passion to balance **academic rigor** with **industry applicability**. My research focuses on developing reliable computational methods, from **XGBoost/LSTM** for building energy forecasting to automated **Life Cycle Assessment (LCA)** enabled by digital twin data. I aim to deploy these methods into real projects and city-scale challenges—accelerating the adoption of low-carbon materials and improving urban resilience and environmental performance.
 
-I have published multiple research papers, including works in the **Chemical Engineering Journal** and **Transportation Research Record**.
+I enjoy creating **“cool”** technologies and systems that deliver meaningful, measurable impact.
+
+I have published multiple research papers in journals including **Journal of Building Engineering**, **Chemical Engineering Journal**, and **Transportation Research Record**.
+
 
 ## 🛠️ Technical Skills 
 **Programming & Data Science:**  Python, R, MATLAB, SQL, VBA  
@@ -30,7 +33,7 @@ I have published multiple research papers, including works in the **Chemical Eng
 **Development & Tools**: Git, Docker, Jupyter Notebook, LaTeX  
 
 # 🔥 News 
-- *Jan 2026*: &nbsp; 🚀🚀 Incoming Assistant Professor of Construction Management at Colorado State University Pueblo. 📍 Pueblo, CO
+- *Jan 2026*: &nbsp; 🚀🚀 Incoming Lecturer🧑‍🏫 of Construction Management at Colorado State University Pueblo. 📍 Pueblo, CO
 - *Dec 2025*: &nbsp; 🎉🎉 Expected Graduation! Ph.D. in Sustainable Construction Management & Wood Science.
 - *Dec 2025*: &nbsp; 🔥🔥 Paper Under review by **Journal of Building Engineering**: Machine learning-based energy retrofit forecasting for multifamily buildings under NYC Local Law 97.
 - *Apr 2025*: &nbsp; 💡💡 Invited Speaker at FPS-SWST International Conference:  
