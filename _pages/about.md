@@ -116,7 +116,7 @@ E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
   *SUNY College of Environmental Science and Forestry*, 2025  
   Advisor: Dr. Paul Crovella
   
-- **M.Eng. in Construction Management**  
+- **M.Eng. in Engineering Management**  
   *Stevens Institute of Technology*, 2020
   
 - **B.S. in Construction Engineering and Management**  
