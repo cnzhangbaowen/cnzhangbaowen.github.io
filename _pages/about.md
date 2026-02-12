@@ -25,7 +25,7 @@ I have published multiple research papers in journals including **Journal of Bui
 * **Institution**: CSU Pueblo
 * **Course Description**: This course covers the basics of engineering economics, project scheduling, earned-value analysis, and project management including business, public policy, leadership, teamwork, sustainability, professional ethics, and estimating.
 * **Key Topics**: Engineering economics, quantity take-off, numerical tools for scheduling (bar charts, precedence networks), and resource allocation.
----
+
 ### **CET 303: Construction Management**
 * **Institution**: CSU Pueblo (Spring 2026)
 * **Course Description**: An overview of knowledge, skills, tools, and techniques needed by today’s construction project managers, including job specifications, bonding, contracts, insurance, and labor relations.
