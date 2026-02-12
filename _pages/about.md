@@ -146,6 +146,11 @@ E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
 > ![Figure 2: Material Testing & LCA](https://via.placeholder.com/800x400.png?text=LCA+Comparison:+Mass-Timber+vs.+RC+Frames)
 > *Caption: Embodied carbon reduction analysis and mechanical validation of low-carbon SCM concrete.*
 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> --- </div><img src='images/images/48951639-99DF-406F-9A6D-7052A10585BA.jpeg' alt="sym" width="50%"></div></div>
+<div class='paper-box-text' markdown="1">
 ---
 
 ### 🌉 3. Stochastic Modeling for Infrastructure Asset Management
