@@ -2,15 +2,14 @@
 main:
   - title: "About Me"
     url: "#about-me"
-  - title: "Skills"
-    url: "#technical-skills"
   - title: "News"
     url: "#news"
-  - title: "Publications"
-    url: "#publications"
   - title: "Education"
     url: "#education"
-  - title: "Experience"
+  - title: "Publications"
+    url: "#publications"
+  - title: "Teaching"       
+    url: "/#teaching" 
+  - title: "Rearch Interests"
     url: "#experience"
-  - title: "Teaching"       # 新增这一行
-    url: "/#teaching"      # 指向主页的 teaching 锚点
+     
