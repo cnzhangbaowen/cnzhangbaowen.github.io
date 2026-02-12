@@ -20,17 +20,16 @@ I enjoy creating **“cool”** technologies and systems that deliver meaningful
 
 I have published multiple research papers in journals including **Journal of Building Engineering**, **Chemical Engineering Journal**, and **Transportation Research Record**.
 
-
-## 🛠️ Technical Skills 
-**Programming & Data Science:**  Python, R, MATLAB, SQL, VBA  
-**Machine Learning:** XGBoost, LSTM, Random Forest, Neural Networks, Deep Learning, Scikit-learn, AWS  
-**BIM & Energy Modeling:** Revit, AutoCAD, IFC Digital Twin, EnergyPlus, OpenStudio, REScheck, COMcheck  
-**Energy Audit & Compliance**: Building Energy Auditing, ASHRAE Standards, NYC Local Law 97, Energy Code Compliance  
-**Data Analysis & Visualization**: Pandas, NumPy, Matplotlib, Plotly, OriginLab  
-**Sustainability & LCA Tools**: Life Cycle Assessment (LCA), Tally, Athena Impact Estimator, Carbon Footprint Analysis, Embodied Carbon Calculation  
-**Structural Analysis**: Finite Element Analysis (FEA), ANSYS  
-**Construction Materials**: Cross-Laminated Timber (CLT), Hardwood Mass Timber, Sustainable Concrete (GGBS, Ground Glass Powder), Bio-based Materials  
-**Development & Tools**: Git, Docker, Jupyter Notebook, LaTeX  
+## Teaching {#teaching}
+### **CE 361: Construction Engineering**
+* **Institution**: CSU Pueblo
+* **Course Description**: This course covers the basics of engineering economics, project scheduling, earned-value analysis, and project management including business, public policy, leadership, teamwork, sustainability, professional ethics, and estimating.
+* **Key Topics**: Engineering economics, quantity take-off, numerical tools for scheduling (bar charts, precedence networks), and resource allocation.
+---
+### **CET 303: Construction Management**
+* **Institution**: CSU Pueblo (Spring 2026)
+* **Course Description**: An overview of knowledge, skills, tools, and techniques needed by today’s construction project managers, including job specifications, bonding, contracts, insurance, and labor relations.
+* **Learning Outcomes**: Defining participant roles, comparing delivery methods, pre-construction services (feasibility and life-cycle cost analysis), and bid tabulation.
 
 # 🔥 News 
 - *Jan 2026*: &nbsp; 🚀🚀 Incoming Lecturer🧑‍🏫 of Construction Management at Colorado State University Pueblo. 📍 Pueblo, CO
@@ -158,7 +157,16 @@ E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
 > ![Figure 3: Markov Chain Prediction](https://via.placeholder.com/800x400.png?text=Infrastructure+Deterioration+Forecasting+Model)
 > *Caption: Predictive deterioration curves for TDOT asset management optimization.*
 
-
+## 🛠️ Technical Skills 
+**Programming & Data Science:**  Python, R, MATLAB, SQL, VBA  
+**Machine Learning:** XGBoost, LSTM, Random Forest, Neural Networks, Deep Learning, Scikit-learn, AWS  
+**BIM & Energy Modeling:** Revit, AutoCAD, IFC Digital Twin, EnergyPlus, OpenStudio, REScheck, COMcheck  
+**Energy Audit & Compliance**: Building Energy Auditing, ASHRAE Standards, NYC Local Law 97, Energy Code Compliance  
+**Data Analysis & Visualization**: Pandas, NumPy, Matplotlib, Plotly, OriginLab  
+**Sustainability & LCA Tools**: Life Cycle Assessment (LCA), Tally, Athena Impact Estimator, Carbon Footprint Analysis, Embodied Carbon Calculation  
+**Structural Analysis**: Finite Element Analysis (FEA), ANSYS  
+**Construction Materials**: Cross-Laminated Timber (CLT), Hardwood Mass Timber, Sustainable Concrete (GGBS, Ground Glass Powder), Bio-based Materials  
+**Development & Tools**: Git, Docker, Jupyter Notebook, LaTeX  
 
 <div style="text-align: center; margin-top: 40px; padding: 20px; background-color: #f5f5f5; border-radius: 10px;">
   <p style="font-size: 16px; color: #666;">
