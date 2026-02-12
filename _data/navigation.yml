@@ -11,6 +11,6 @@ main:
   - title: "Education"
     url: "#education"
   - title: "Experience"
-    url: "#Experience"
+    url: "#experience"
   - title: "Teaching"       # 新增这一行
     url: "/#teaching"      # 指向主页的 teaching 锚点
