@@ -130,10 +130,6 @@ E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
 - **Key Contribution**: Architected a seamless pipeline enriching **IFC4/IFC5 schemas** with thermal/HVAC attributes. Developed automated workflows using **Rhino 8, Grasshopper, and EnergyPlus** via **ifcopenshell** to preserve semantic integrity.
 - **Innovation**: Integrated **Point-Cloud and Thermal Imagery** alignment for automated model calibration, enabling a "Physical-to-Digital" feedback loop for existing building retrofits.
 - **Impact**: Supports large-scale LCA studies for mass-timber and smart construction planning.
-
-> ![Figure 1: IFC-to-BEM Workflow](https://via.placeholder.com/800x400.png?text=Workflow+Diagram:+IFC+Semantic+Enrichment+to+EnergyPlus)
-> *Caption: Developed BIM-to-BEM interoperability framework for high-fidelity energy simulation.*
-
 ---
 
 ### 🌿 2. Sustainable Materials: Low-Carbon SCMs & Mass-Timber LCA
@@ -142,15 +138,6 @@ E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
 - **Key Contribution**: Investigated the techno-economic performance of concrete with **up to 80% cement replacement** (GGBS/PFA). Validated structural integrity (4000 psi) through ASTM-based mechanical testing (C78, C496).
 - **LCA Expertise**: Conducted comprehensive **Cradle-to-Gate Life Cycle Assessments** to quantify the carbon-sequestration benefits of mass-timber versus reinforced concrete.
 - **Impact**: Provided industry-grade guidance for SCM adoption in resilient infrastructure.
-
-> ![Figure 2: Material Testing & LCA](https://via.placeholder.com/800x400.png?text=LCA+Comparison:+Mass-Timber+vs.+RC+Frames)
-> *Caption: Embodied carbon reduction analysis and mechanical validation of low-carbon SCM concrete.*
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> --- </div><img src='images/images/48951639-99DF-406F-9A6D-7052A10585BA.jpeg' alt="sym" width="50%"></div></div>
-<div class='paper-box-text' markdown="1">
 ---
 
 ### 🌉 3. Stochastic Modeling for Infrastructure Asset Management
@@ -159,10 +146,6 @@ E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
 - **Key Contribution**: Developed **AHP-Markov Chain models** to forecast the long-term deterioration of civil infrastructure assets.
 - **Collaboration**: Partnered with the **Tennessee Department of Transportation (TDOT)** to optimize maintenance protocols for regional retaining wall systems.
 - **Impact**: Created a decision-support framework that optimizes resource allocation and extends the service life of critical transportation assets.
-
-> ![Figure 3: Markov Chain Prediction](https://via.placeholder.com/800x400.png?text=Infrastructure+Deterioration+Forecasting+Model)
-> *Caption: Predictive deterioration curves for TDOT asset management optimization.*
-
 
 
 <div style="text-align: center; margin-top: 40px; padding: 20px; background-color: #f5f5f5; border-radius: 10px;">
