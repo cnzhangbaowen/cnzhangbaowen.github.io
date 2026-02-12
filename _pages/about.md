@@ -7,7 +7,7 @@ redirect_from:
  - /about/
  - /about.html
 ---
-
+## About Me {#about-me}
 Hello! I am **Baowen Zhang (张宝文)**, a Lecturer in Construction Management at **Colorado State University Pueblo**🐺.
 
 As an educator🧑‍🏫, I bring real-world practice and emerging technologies into the classroom to make learning engaging, applied, and industry-relevant. I use **case-based** and **project-driven** teaching to help students connect core construction principles with modern workflows such as **BIM**, **digital twins**, **energy modeling**, and **data analytics**. My goal is to help students build strong fundamentals while developing the hands-on skills and problem-solving mindset needed for today’s rapidly evolving construction industry.
@@ -31,7 +31,7 @@ I have published multiple research papers in journals including **Journal of Bui
 * **Course Description**: An overview of knowledge, skills, tools, and techniques needed by today’s construction project managers, including job specifications, bonding, contracts, insurance, and labor relations.
 * **Learning Outcomes**: Defining participant roles, comparing delivery methods, pre-construction services (feasibility and life-cycle cost analysis), and bid tabulation.
 
-# 🔥 News 
+# 🔥 News {#news}
 - *Jan 2026*: &nbsp; 🚀🚀 Incoming Lecturer🧑‍🏫 of Construction Management at Colorado State University Pueblo. 📍 Pueblo, CO
 - *Dec 2025*: &nbsp; 🎉🎉 Expected Graduation! Ph.D. in Sustainable Construction Management & Wood Science.
 - *Dec 2025*: &nbsp; 🔥🔥 Paper Under review by **Journal of Building Engineering**: Machine learning-based energy retrofit forecasting for multifamily buildings under NYC Local Law 97.
@@ -45,7 +45,7 @@ I have published multiple research papers in journals including **Journal of Bui
   📍 **Auburn University, Auburn, AL**  
   🌎 [View on Google Maps](https://maps.app.goo.gl/1K64UbHtSmGsfwQcA)
 
-# 📝 Publications
+# 📝 Publications {#publications}
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of BE (Under Review)</div><img src='images/pub/JoBE.jpg' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -110,7 +110,7 @@ E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
 </div>
 </div>
 
-# 🎓 Education 
+# 🎓 Education {#education}
 - **Ph.D. in Sustainable Construction Management & Wood Science**  
   *SUNY College of Environmental Science and Forestry*, 2025  
   Advisor: Dr. Paul Crovella
