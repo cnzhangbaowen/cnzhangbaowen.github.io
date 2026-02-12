@@ -157,16 +157,7 @@ E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
 > ![Figure 3: Markov Chain Prediction](https://via.placeholder.com/800x400.png?text=Infrastructure+Deterioration+Forecasting+Model)
 > *Caption: Predictive deterioration curves for TDOT asset management optimization.*
 
-## 🛠️ Technical Skills 
-**Programming & Data Science:**  Python, R, MATLAB, SQL, VBA  
-**Machine Learning:** XGBoost, LSTM, Random Forest, Neural Networks, Deep Learning, Scikit-learn, AWS  
-**BIM & Energy Modeling:** Revit, AutoCAD, IFC Digital Twin, EnergyPlus, OpenStudio, REScheck, COMcheck  
-**Energy Audit & Compliance**: Building Energy Auditing, ASHRAE Standards, NYC Local Law 97, Energy Code Compliance  
-**Data Analysis & Visualization**: Pandas, NumPy, Matplotlib, Plotly, OriginLab  
-**Sustainability & LCA Tools**: Life Cycle Assessment (LCA), Tally, Athena Impact Estimator, Carbon Footprint Analysis, Embodied Carbon Calculation  
-**Structural Analysis**: Finite Element Analysis (FEA), ANSYS  
-**Construction Materials**: Cross-Laminated Timber (CLT), Hardwood Mass Timber, Sustainable Concrete (GGBS, Ground Glass Powder), Bio-based Materials  
-**Development & Tools**: Git, Docker, Jupyter Notebook, LaTeX  
+
 
 <div style="text-align: center; margin-top: 40px; padding: 20px; background-color: #f5f5f5; border-radius: 10px;">
   <p style="font-size: 16px; color: #666;">
