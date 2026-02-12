@@ -20,16 +20,6 @@ I enjoy creating **“cool”** technologies and systems that deliver meaningful
 
 I have published multiple research papers in journals including **Journal of Building Engineering**, **Chemical Engineering Journal**, and **Transportation Research Record**.
 
-## Teaching {#teaching}
-### **CE 361: Construction Engineering**
-* **Institution**: CSU Pueblo
-* **Course Description**: This course covers the basics of engineering economics, project scheduling, earned-value analysis, and project management including business, public policy, leadership, teamwork, sustainability, professional ethics, and estimating.
-* **Key Topics**: Engineering economics, quantity take-off, numerical tools for scheduling (bar charts, precedence networks), and resource allocation.
-
-### **CET 303: Construction Management**
-* **Institution**: CSU Pueblo (Spring 2026)
-* **Course Description**: An overview of knowledge, skills, tools, and techniques needed by today’s construction project managers, including job specifications, bonding, contracts, insurance, and labor relations.
-* **Learning Outcomes**: Defining participant roles, comparing delivery methods, pre-construction services (feasibility and life-cycle cost analysis), and bid tabulation.
 
 # 🔥 News {#news}
 - *Jan 2026*: &nbsp; 🚀🚀 Incoming Lecturer🧑‍🏫 of Construction Management at Colorado State University Pueblo. 📍 Pueblo, CO
@@ -109,6 +99,17 @@ E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, **B. Zhang**
 - Developed an integrated Analytic Hierarchy Process-Markov (AHP-Markov) model for the Tennessee Department of Transportation (TDOT) retaining wall system, providing robust condition rating and service life prediction.
 </div>
 </div>
+
+## 👨‍🏫Teaching {#teaching}
+### **CE 361: Construction Engineering**
+* **Institution**: CSU Pueblo
+* **Course Description**: This course covers the basics of engineering economics, project scheduling, earned-value analysis, and project management including business, public policy, leadership, teamwork, sustainability, professional ethics, and estimating.
+* **Key Topics**: Engineering economics, quantity take-off, numerical tools for scheduling (bar charts, precedence networks), and resource allocation.
+
+### **CET 303: Construction Management**
+* **Institution**: CSU Pueblo (Spring 2026)
+* **Course Description**: An overview of knowledge, skills, tools, and techniques needed by today’s construction project managers, including job specifications, bonding, contracts, insurance, and labor relations.
+* **Learning Outcomes**: Defining participant roles, comparing delivery methods, pre-construction services (feasibility and life-cycle cost analysis), and bid tabulation.
 
 # 🎓 Education {#education}
 - **Ph.D. in Sustainable Construction Management & Wood Science**  
