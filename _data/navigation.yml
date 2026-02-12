@@ -1,26 +1,14 @@
-# main links
+# _data/navigation.yml
 main:
   - title: "About Me"
-    url: "/#about-me"
+    url: "#about-me"
   - title: "Skills"
-    url: "/#technical-skills"
+    url: "#technical-skills"
   - title: "News"
-    url: "/#news"
+    url: "#news"
   - title: "Publications"
-    url: "/#publications"
+    url: "#publications"
   - title: "Education"
-    url: "/#education"
+    url: "#education"
   - title: "Experience"
-    url: "/#Experience"
-
-  # - title: "Honors and Awards"
-  #   url: "/#-honors-and-awards"
-
-  # - title: "Educations"
-  #   url: "/#-educations"
-
-  # - title: "Invited Talks"
-  #   url: "/#-invited-talks"
-
-  # - title: "Internships"
-  #   url: "/#-internships"
+    url: "#Experience"
