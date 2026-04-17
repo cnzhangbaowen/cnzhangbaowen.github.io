@@ -18,7 +18,7 @@ I am driven by the passion to balance **academic rigor** with **industry applica
 
 I enjoy creating **“cool”** technologies and systems that deliver meaningful, measurable impact.
 
-I have published multiple research papers in journals including **Journal of Building Engineering**, **Chemical Engineering Journal**, and **Transportation Research Record**.
+I have published multiple research papers in journals including **Journal of Building Engineering**, **Energy and Buildings**, **Chemical Engineering Journal**, **Case Studies in Construction Materials**, and **Transportation Research Record**, with total <a href='https://scholar.google.com/citations?user=ATUYvjoAAAAJ' target='_blank'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcnzhangbaowen%2Fcnzhangbaowen.github.io%2Fgoogle-scholar-stats%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="citations"></a> citations.
 
 <div class="tech-stack">
   <span class="tech-badge">Python</span>
