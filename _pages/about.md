@@ -20,6 +20,21 @@ I enjoy creating **“cool”** technologies and systems that deliver meaningful
 
 I have published multiple research papers in journals including **Journal of Building Engineering**, **Chemical Engineering Journal**, and **Transportation Research Record**.
 
+<div class="tech-stack">
+  <span class="tech-badge">Python</span>
+  <span class="tech-badge">Machine Learning</span>
+  <span class="tech-badge">XGBoost</span>
+  <span class="tech-badge">LSTM / Deep Learning</span>
+  <span class="tech-badge">BIM / IFC</span>
+  <span class="tech-badge">ifcopenshell</span>
+  <span class="tech-badge">EnergyPlus</span>
+  <span class="tech-badge">Rhino 8 + Grasshopper</span>
+  <span class="tech-badge">Digital Twin</span>
+  <span class="tech-badge">Life Cycle Assessment</span>
+  <span class="tech-badge">R</span>
+  <span class="tech-badge">GIS</span>
+  <span class="tech-badge">SQL</span>
+</div>
 
 # 🔥 News {#news}
 - *Jan 2026*: &nbsp; 🚀🚀 Incoming Lecturer🧑‍🏫 of Construction Management at Colorado State University Pueblo. 📍 Pueblo, CO
