@@ -37,7 +37,7 @@ I have published multiple research papers in journals including **Journal of Bui
 </div>
 
 # 🔥 News {#news}
-- *Jan 2026*: &nbsp; 🚀🚀 Incoming Lecturer🧑‍🏫 of Construction Management at Colorado State University Pueblo. 📍 Pueblo, CO
+- *Jan 2026*: &nbsp; 🚀🚀 Lecturer🧑‍🏫 of Construction Management at Colorado State University Pueblo. 📍 Pueblo, CO
 - *Dec 2025*: &nbsp; 🎉🎉 Expected Graduation! Ph.D. in Sustainable Construction Management & Wood Science.
 - *Dec 2025*: &nbsp; 🔥🔥 Paper Under review by **Journal of Building Engineering**: Machine learning-based energy retrofit forecasting for multifamily buildings under NYC Local Law 97.
 - *Apr 2025*: &nbsp; 💡💡 Invited Speaker at FPS-SWST International Conference:  
@@ -69,7 +69,7 @@ I have published multiple research papers in journals including **Journal of Bui
 
 **Quantifying Construction-Stage (A5) Energy Consumption in Mass Timber Buildings: A Dual-Track Assessment Framework**
 
-Hongmei Gu, **Baowen Zhang**, Paul Crovella
+**Baowen Zhang**, Hongmei Gu, Paul Crovella
 
 *Case Studies in Construction Materials*, 2026
 

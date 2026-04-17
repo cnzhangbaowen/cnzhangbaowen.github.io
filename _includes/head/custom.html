@@ -25,10 +25,10 @@
      ================================================ -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
-/* ---- 1. Font upgrade: Inter ---- */
+/* ---- 1. Font upgrade: Inter body + Space Grotesk headings ---- */
 body, p, li, dd, dt,
 .sidebar p, .sidebar li, .author__bio,
 .author__name, .author__urls, .nav__list {
@@ -36,8 +36,41 @@ body, p, li, dd, dt,
   letter-spacing: -0.01em;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  letter-spacing: -0.025em;
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: -0.03em;
+}
+
+/* ---- 1b. Grain texture overlay (like h-gupta.com) ---- */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+  opacity: 0.025;
+  pointer-events: none;
+  z-index: 9998;
+}
+
+/* ---- 1c. Custom scrollbar ---- */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f8f9fb; }
+::-webkit-scrollbar-thumb {
+  background: #c5cfe0;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover { background: #224b8d; }
+
+/* ---- 1d. Float-wave on profile image ---- */
+@keyframes float-wave {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-6px); }
+}
+.author__avatar img {
+  animation: float-wave 4s ease-in-out infinite !important;
+}
+.author__avatar img:hover {
+  animation-play-state: paused !important;
 }
 
 /* ---- 2. Reading progress bar ---- */
