@@ -51,16 +51,29 @@ I have published multiple research papers in journals including **Journal of Bui
   🌎 [View on Google Maps](https://maps.app.goo.gl/1K64UbHtSmGsfwQcA)
 
 # 📝 Publications {#publications}
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of BE (Under Review)</div><img src='images/pub/JoBE.jpg' alt="sym" width="50%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Cleaner Eng. Tech. (Under Review)</div><img src='images/pub/CET.jpg' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Designing sustainable concrete to maximize the use of local waste material: Mechanical, durability and sustainability analysis**
 
-**Baowen Zhang**,  Minhajul Islam Aman, Paul Crovella , Md. Uzzal Hossain
+**Baowen Zhang**, Minhajul Islam Aman, Paul Crovella, Md. Uzzal Hossain
 
-*Journal of Building Engineering* (Under Review)
+*Cleaner Engineering and Technology* (Under Review)
 
-- Developed high-performance ternary blended concrete with 80% cement replacement using Ground Glass Powder (GGP) and GGBS, achieving a 66% reduction in CO₂ emissions and a 13-fold increase in durability through synergistic material effects..
+- Developed high-performance ternary blended concrete with 80% cement replacement using Ground Glass Powder (GGP) and GGBS, achieving a 66% reduction in CO₂ emissions and a 13-fold increase in durability through synergistic material effects.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CSCM (2026)</div><img src='images/pub/CSCM.jpg' alt="sym" width="50%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Quantifying Construction-Stage (A5) Energy Consumption in Mass Timber Buildings: A Dual-Track Assessment Framework**
+
+Hongmei Gu, **Baowen Zhang**, Paul Crovella
+
+*Case Studies in Construction Materials*, 2026
+
+- Developed a dual-track assessment framework to quantify A5 construction-stage energy consumption in mass timber buildings, providing a systematic methodology for embodied carbon accounting in modern timber construction.
 </div>
 </div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of BE (Under Review)</div><img src='images/pub/JoBE.jpg' alt="sym" width="50%"></div></div>
