@@ -25,6 +25,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML" async></script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    var progressBar = document.createElement("div");
+    progressBar.id = "scroll-progress";
+    document.body.appendChild(progressBar);
+
+    function updateScrollProgress() {
+      var maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+      var ratio = maxScroll > 0 ? (window.scrollY / maxScroll) * 100 : 0;
+      progressBar.style.width = ratio + "%";
+    }
+
+    window.addEventListener("scroll", updateScrollProgress, { passive: true });
+    window.addEventListener("resize", updateScrollProgress);
+    updateScrollProgress();
+
     if (!("IntersectionObserver" in window)) {
       return;
     }
