@@ -7,7 +7,26 @@
         {% endif %}
         $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
             var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
+            var totalCitationEl = document.getElementById('total_cit')
+            if (totalCitationEl) {
+                totalCitationEl.innerHTML = totalCitation;
+            }
+
+            var hIndexEl = document.getElementById('h_index')
+            if (hIndexEl && data['hindex'] !== undefined) {
+                hIndexEl.innerHTML = data['hindex'];
+            }
+
+            var i10IndexEl = document.getElementById('i10_index')
+            if (i10IndexEl && data['i10index'] !== undefined) {
+                i10IndexEl.innerHTML = data['i10index'];
+            }
+
+            var updatedEl = document.getElementById('gs_updated')
+            if (updatedEl && data['updated']) {
+                updatedEl.innerHTML = data['updated'].split(' ')[0];
+            }
+
             var citationEles = document.getElementsByClassName('show_paper_citations')
             Array.prototype.forEach.call(citationEles, element => {
                 var paperId = element.getAttribute('data')
