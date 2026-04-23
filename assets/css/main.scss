@@ -250,11 +250,26 @@ body:before {
 
 .reveal-block {
   opacity: 0;
-  transform: translateY(28px);
-  transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transform: translateY(32px) scale(0.985);
+  transition: opacity 0.9s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.9s cubic-bezier(0.2, 0.8, 0.2, 1), filter 0.9s ease;
+  filter: blur(4px);
 }
 
 .reveal-block.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  filter: blur(0);
+}
+
+.reveal-stagger {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity 0.75s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.75s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.28s ease, border-color 0.28s ease, background-color 0.28s ease;
+  transition-delay: var(--stagger-delay, 0ms);
+}
+
+.is-visible .reveal-stagger,
+.reveal-block.is-visible.reveal-stagger {
   opacity: 1;
   transform: translateY(0);
 }
@@ -429,6 +444,82 @@ body:before {
   background: rgba(255, 255, 255, 0.78);
   border: 1px solid rgba(148, 163, 184, 0.18);
   box-shadow: 0 14px 30px rgba(15, 23, 42, 0.05);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease, background-color 0.28s ease;
+}
+
+.signal-card,
+.feature-card,
+.publication-row,
+.stack-item,
+.editorial-note,
+.metrics-panel,
+.identity-panel,
+.contact-panel {
+  position: relative;
+  overflow: hidden;
+}
+
+.signal-card:before,
+.feature-card:before,
+.publication-row:before,
+.stack-item:before,
+.editorial-note:before,
+.metrics-panel:before,
+.identity-panel:before,
+.contact-panel:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.02) 45%),
+    radial-gradient(circle at top left, rgba(247, 105, 0, 0.12), transparent 42%);
+  transition: opacity 0.28s ease;
+}
+
+.signal-card:hover,
+.signal-card:focus-within,
+.feature-card:hover,
+.feature-card:focus-within,
+.publication-row:hover,
+.publication-row:focus-within,
+.stack-item:hover,
+.stack-item:focus-within,
+.editorial-note:hover,
+.editorial-note:focus-within,
+.metrics-panel:hover,
+.metrics-panel:focus-within,
+.identity-panel:hover,
+.identity-panel:focus-within,
+.contact-panel:hover,
+.contact-panel:focus-within {
+  transform: translateY(-4px);
+  border-color: rgba(247, 105, 0, 0.24);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 18px 44px rgba(0, 45, 98, 0.08), 0 8px 22px rgba(247, 105, 0, 0.08);
+}
+
+.signal-card:hover:before,
+.signal-card:focus-within:before,
+.feature-card:hover:before,
+.feature-card:focus-within:before,
+.publication-row:hover:before,
+.publication-row:focus-within:before,
+.stack-item:hover:before,
+.stack-item:focus-within:before,
+.editorial-note:hover:before,
+.editorial-note:focus-within:before,
+.metrics-panel:hover:before,
+.metrics-panel:focus-within:before,
+.identity-panel:hover:before,
+.identity-panel:focus-within:before,
+.contact-panel:hover:before,
+.contact-panel:focus-within:before {
+  opacity: 1;
 }
 
 .portrait-panel {
@@ -690,6 +781,7 @@ body:before {
 .stack-item {
   padding: 1rem 0;
   border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 18px;
 }
 
 .stack-item:last-child {
