@@ -26,6 +26,30 @@ redirect_from:
         <p><span>Research Areas</span> Building energy forecasting, IFC-based digital twins, embodied carbon, mass timber, low-carbon materials</p>
       </div>
 
+      <div class="hero-signals">
+        <article class="signal-card">
+          <div class="signal-card__icon"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
+          <div>
+            <p class="signal-card__label">Forecasting</p>
+            <p class="signal-card__text">Retrofit prediction for policy and performance decisions</p>
+          </div>
+        </article>
+        <article class="signal-card">
+          <div class="signal-card__icon"><i class="fas fa-cubes" aria-hidden="true"></i></div>
+          <div>
+            <p class="signal-card__label">Digital Twin</p>
+            <p class="signal-card__text">IFC-centered workflows that connect geometry, simulation, and carbon data</p>
+          </div>
+        </article>
+        <article class="signal-card">
+          <div class="signal-card__icon"><i class="fas fa-leaf" aria-hidden="true"></i></div>
+          <div>
+            <p class="signal-card__label">Decarbonization</p>
+            <p class="signal-card__text">Low-carbon materials, timber systems, and embodied impact assessment</p>
+          </div>
+        </article>
+      </div>
+
       <blockquote class="hero-quote">
         <p>I care about methods that are rigorous enough for research, but practical enough to change the way buildings are analyzed, retrofitted, and delivered.</p>
       </blockquote>
@@ -81,16 +105,19 @@ redirect_from:
 
   <div class="feature-grid">
     <article class="feature-card">
+      <div class="feature-card__icon"><i class="fas fa-bolt" aria-hidden="true"></i></div>
       <p class="feature-card__index">01</p>
       <h3>Energy Retrofit Forecasting</h3>
       <p>Predictive models for building upgrades, compliance planning, and portfolio-level decision support under urban climate policy.</p>
     </article>
     <article class="feature-card">
+      <div class="feature-card__icon"><i class="fas fa-draw-polygon" aria-hidden="true"></i></div>
       <p class="feature-card__index">02</p>
       <h3>Digital Twin and IFC Workflows</h3>
       <p>OpenBIM pipelines that connect IFC semantics, energy simulation, and analysis-ready data for existing and new buildings.</p>
     </article>
     <article class="feature-card">
+      <div class="feature-card__icon"><i class="fas fa-seedling" aria-hidden="true"></i></div>
       <p class="feature-card__index">03</p>
       <h3>Embodied Carbon and Materials</h3>
       <p>Assessment methods for mass timber, supplementary cementitious materials, and low-carbon construction strategies.</p>
@@ -134,6 +161,11 @@ redirect_from:
         <h3>Machine learning-based energy retrofit forecasting for multifamily buildings under NYC Local Law 97</h3>
         <p class="publication-row__authors"><strong>Baowen Zhang</strong>, P. Crovella</p>
         <p>Developed predictive retrofit models using XGBoost and LSTM to estimate compliance-driven building upgrades for New York City multifamily housing.</p>
+        <div class="publication-row__tags">
+          <span><i class="fas fa-chart-line" aria-hidden="true"></i> ML</span>
+          <span><i class="fas fa-city" aria-hidden="true"></i> Retrofit</span>
+          <span><i class="fas fa-scale-balanced" aria-hidden="true"></i> Local Law 97</span>
+        </div>
       </div>
     </article>
 
@@ -146,6 +178,11 @@ redirect_from:
         <h3>Quantifying Construction-Stage (A5) Energy Consumption in Mass Timber Buildings: A Dual-Track Assessment Framework</h3>
         <p class="publication-row__authors"><strong>Baowen Zhang</strong>, Hongmei Gu, Paul Crovella</p>
         <p>Proposed a dual-track framework to measure A5 construction energy use and improve embodied-carbon accounting in timber construction projects.</p>
+        <div class="publication-row__tags">
+          <span><i class="fas fa-tree" aria-hidden="true"></i> Mass Timber</span>
+          <span><i class="fas fa-cloud" aria-hidden="true"></i> Carbon</span>
+          <span><i class="fas fa-person-digging" aria-hidden="true"></i> A5 Stage</span>
+        </div>
       </div>
     </article>
 
@@ -158,6 +195,11 @@ redirect_from:
         <h3><a href="https://doi.org/10.1016/j.cej.2024.156142" target="_blank" rel="noopener">Green co-solvent-assisted one-pot synthesis of high-performance flexible lignin polyurethane foam</a></h3>
         <p class="publication-row__authors">Mairui Zhang, Soyeon Jeong, Woongbi Cho, Jiae Ryu, <strong>Baowen Zhang</strong>, Paul Crovella, Arthur J. Ragauskas, Jeong Jae Wie, Chang Geun Yoo</p>
         <p>Improved the flexibility and strength of lignin-based polyurethane foam with a greener synthesis route while maintaining competitive insulation performance.</p>
+        <div class="publication-row__tags">
+          <span><i class="fas fa-flask" aria-hidden="true"></i> Materials</span>
+          <span><i class="fas fa-recycle" aria-hidden="true"></i> Bio-based</span>
+          <span><i class="fas fa-temperature-half" aria-hidden="true"></i> Insulation</span>
+        </div>
       </div>
     </article>
 
@@ -170,6 +212,11 @@ redirect_from:
         <h3><a href="https://trid.trb.org/view/1996319" target="_blank" rel="noopener">An Integrated Analytic Hierarchy Process-Markov Model for Rating Condition and Predicting Service Life of Retaining Walls</a></h3>
         <p class="publication-row__authors">E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, <strong>Baowen Zhang</strong></p>
         <p>Built an AHP-Markov framework for retaining-wall condition rating and long-term service-life prediction in transportation infrastructure.</p>
+        <div class="publication-row__tags">
+          <span><i class="fas fa-road" aria-hidden="true"></i> Infrastructure</span>
+          <span><i class="fas fa-diagram-project" aria-hidden="true"></i> Markov</span>
+          <span><i class="fas fa-shield-halved" aria-hidden="true"></i> Asset Life</span>
+        </div>
       </div>
     </article>
   </div>

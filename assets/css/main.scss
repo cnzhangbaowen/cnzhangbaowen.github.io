@@ -285,16 +285,16 @@ body:before {
 .hero-title {
   max-width: 12ch;
   margin: 0;
-  font-size: clamp(3.4rem, 7vw, 6.4rem);
-  line-height: 0.93;
+  font-size: clamp(2.7rem, 5.3vw, 4.9rem);
+  line-height: 0.96;
 }
 
 .hero-lead {
   max-width: 52rem;
   margin: 1.4rem 0 0;
   color: #334155;
-  font-size: 1.17rem;
-  line-height: 1.75;
+  font-size: 1.02rem;
+  line-height: 1.7;
 }
 
 .hero-cta-row {
@@ -312,7 +312,7 @@ body:before {
 
 .hero-meta p {
   margin: 0;
-  font-size: 0.96rem;
+  font-size: 0.9rem;
 }
 
 .hero-meta span {
@@ -325,6 +325,55 @@ body:before {
   text-transform: uppercase;
 }
 
+.hero-signals {
+  display: grid;
+  gap: 0.8rem;
+  margin: 0 0 2rem;
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.signal-card {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 0.8rem;
+  align-items: start;
+  padding: 0.95rem 1rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+.signal-card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(0, 45, 98, 0.12), rgba(166, 25, 46, 0.12));
+  color: #002d62;
+  font-size: 1rem;
+}
+
+.signal-card__label {
+  margin: 0 0 0.18rem;
+  color: #0f172a;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.signal-card__text {
+  margin: 0;
+  color: #475569;
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+
 .hero-quote {
   max-width: 48rem;
   padding-top: 1rem;
@@ -333,9 +382,9 @@ body:before {
 .hero-quote p {
   color: #0f172a;
   font-family: "Playfair Display", serif;
-  font-size: clamp(1.5rem, 2.6vw, 2.3rem);
+  font-size: clamp(1.25rem, 2vw, 1.8rem);
   font-style: italic;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 .hero-aside {
@@ -453,8 +502,8 @@ body:before {
 
 .section-head h2 {
   margin: 0;
-  font-size: clamp(2rem, 3.2vw, 3rem);
-  line-height: 1.02;
+  font-size: clamp(1.65rem, 2.7vw, 2.45rem);
+  line-height: 1.06;
 }
 
 .feature-grid {
@@ -471,19 +520,32 @@ body:before {
   padding: 1.35rem 1.3rem;
 }
 
+.feature-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  margin-bottom: 0.9rem;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(0, 45, 98, 0.12), rgba(166, 25, 46, 0.12));
+  color: #002d62;
+  font-size: 1.05rem;
+}
+
 .feature-card__index {
   margin: 0 0 1rem;
   color: #a6192e;
   font-family: "Space Grotesk", sans-serif;
-  font-size: 0.95rem;
+  font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.18em;
 }
 
 .feature-card h3 {
   margin: 0 0 0.65rem;
-  font-size: 1.45rem;
-  line-height: 1.08;
+  font-size: 1.2rem;
+  line-height: 1.12;
 }
 
 .feature-card p:last-child {
@@ -503,8 +565,8 @@ body:before {
 
 .editorial-copy h2 {
   margin: 0 0 1.1rem;
-  font-size: clamp(2rem, 3.2vw, 3rem);
-  line-height: 1.02;
+  font-size: clamp(1.7rem, 2.8vw, 2.5rem);
+  line-height: 1.06;
 }
 
 .editorial-copy p:last-child {
@@ -561,17 +623,37 @@ body:before {
 
 .publication-row__body h3 {
   margin: 0 0 0.65rem;
-  font-size: clamp(1.45rem, 2.2vw, 2rem);
-  line-height: 1.05;
+  font-size: clamp(1.18rem, 1.8vw, 1.58rem);
+  line-height: 1.12;
 }
 
 .publication-row__authors {
   margin-bottom: 0.7rem;
   color: #475569;
+  font-size: 0.92rem;
 }
 
 .publication-row__body p:last-child {
   margin-bottom: 0;
+}
+
+.publication-row__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 0.95rem;
+}
+
+.publication-row__tags span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  background: #f8fafc;
+  color: #334155;
+  font-size: 0.78rem;
+  font-weight: 700;
 }
 
 .stack-panel {
@@ -599,8 +681,8 @@ body:before {
 
 .stack-item h3 {
   margin: 0 0 0.45rem;
-  font-size: 1.25rem;
-  line-height: 1.08;
+  font-size: 1.08rem;
+  line-height: 1.12;
 }
 
 .stack-item p:last-child {
@@ -628,6 +710,10 @@ body:before {
   .hero-lead,
   .hero-quote p {
     max-width: none;
+  }
+
+  .hero-signals {
+    grid-template-columns: 1fr;
   }
 
   .metrics-grid {
