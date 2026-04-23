@@ -6,12 +6,12 @@
 <meta name="msapplication-TileColor" content="#17352b">
 <meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
-<meta name="theme-color" content="#f4f0e8">
+<meta name="theme-color" content="#fafaf9">
 <link rel="stylesheet" href="assets/css/academicons.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
@@ -23,3 +23,23 @@
   });
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML" async></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (!("IntersectionObserver" in window)) {
+      return;
+    }
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll(".reveal-block").forEach(function (element) {
+      observer.observe(element);
+    });
+  });
+</script>
