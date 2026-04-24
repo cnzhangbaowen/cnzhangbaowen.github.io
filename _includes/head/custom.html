@@ -57,8 +57,17 @@
       children.forEach(function (child, index) {
         child.style.setProperty("--stagger-delay", (index * 90) + "ms");
         child.classList.add("reveal-stagger");
+        child.classList.add("glass-interactive");
       });
       observer.observe(element);
+    });
+
+    document.querySelectorAll(".glass-interactive").forEach(function (element) {
+      element.addEventListener("pointermove", function (event) {
+        var rect = element.getBoundingClientRect();
+        element.style.setProperty("--pointer-x", (event.clientX - rect.left) + "px");
+        element.style.setProperty("--pointer-y", (event.clientY - rect.top) + "px");
+      });
     });
   });
 </script>
