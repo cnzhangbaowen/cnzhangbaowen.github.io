@@ -5,7 +5,9 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
-            <a href="{{ '/' | relative_url }}#about-me">Baowen Zhang</a>
+            <a class="site-logo-link" href="{{ '/' | relative_url }}#about-me" aria-label="Baowen Zhang homepage">
+              <img class="site-logo" src="{{ '/images/logos/baowen-logo.svg' | relative_url }}" alt="Baowen Zhang research logo">
+            </a>
           </li>
           
           {% for link in site.data.navigation.main %}

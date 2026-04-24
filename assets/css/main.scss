@@ -136,6 +136,28 @@ body:before {
   letter-spacing: 0;
 }
 
+.masthead__menu-home-item {
+  margin-right: 1.2rem;
+}
+
+.site-logo-link {
+  display: flex;
+  align-items: center;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.site-logo-link:before {
+  display: none !important;
+}
+
+.site-logo {
+  display: block;
+  width: 218px;
+  max-width: 30vw;
+  height: auto;
+}
+
 #main {
   @include container;
   @include clearfix;
@@ -935,6 +957,11 @@ body:before {
   .portrait-panel {
     width: 100%;
     aspect-ratio: 5 / 4;
+  }
+
+  .site-logo {
+    width: 164px;
+    max-width: 58vw;
   }
 
   .hero-signals {

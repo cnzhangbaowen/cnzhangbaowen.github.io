@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 132" role="img" aria-labelledby="title desc">
+  <title id="title">Baowen Zhang research logo</title>
+  <desc id="desc">A sustainable building, data path, and leaf mark with Baowen Zhang's research identity.</desc>
+  <defs>
+    <linearGradient id="markGradient" x1="12" y1="112" x2="106" y2="14" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#002d62"/>
+      <stop offset="1" stop-color="#0f5ea8"/>
+    </linearGradient>
+    <linearGradient id="orangeGradient" x1="68" y1="36" x2="112" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9a3d"/>
+      <stop offset="1" stop-color="#f76900"/>
+    </linearGradient>
+  </defs>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 105V62l22-14 22 14v43" stroke="url(#markGradient)" stroke-width="6"/>
+    <path d="M38 105V78h16v27" stroke="#002d62" stroke-width="5"/>
+    <path d="M80 105V32h30v73" stroke="#002d62" stroke-width="6"/>
+    <path d="M92 48h8M92 65h8M92 82h8" stroke="#002d62" stroke-width="5"/>
+    <path d="M18 105h102" stroke="#002d62" stroke-width="6"/>
+    <path d="M20 40c18 4 31 1 43-13" stroke="#002d62" stroke-width="5"/>
+    <path d="M62 27h17v17" stroke="#002d62" stroke-width="5"/>
+    <path d="M64 96c5-18 18-29 36-31 1 19-8 32-25 39" stroke="url(#orangeGradient)" stroke-width="6"/>
+    <path d="M73 96c8-6 16-13 24-25" stroke="#f76900" stroke-width="4"/>
+    <circle cx="28" cy="40" r="4" fill="#f76900" stroke="none"/>
+    <circle cx="47" cy="30" r="4" fill="#002d62" stroke="none"/>
+    <circle cx="65" cy="18" r="4" fill="#f76900" stroke="none"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="142" y="46" fill="#002d62" font-size="25" font-weight="800">Baowen Zhang</text>
+    <text x="142" y="78" fill="#0f172a" font-size="19" font-weight="650">Sustainable Construction</text>
+    <text x="142" y="106" fill="#0f172a" font-size="19" font-weight="650">
+      <tspan>Data + Digital Twin </tspan><tspan fill="#f76900" font-weight="800">LAB</tspan>
+    </text>
+  </g>
+</svg>
