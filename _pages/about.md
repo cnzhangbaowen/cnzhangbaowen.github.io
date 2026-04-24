@@ -16,7 +16,7 @@ redirect_from:
       <p class="hero-lead">I build computational methods that connect machine learning, digital twins, energy modeling, and carbon assessment for real construction and retrofit decisions.</p>
 
       <div class="hero-cta-row">
-        <a class="btn btn--primary" href="#publications">Research</a>
+        <a class="btn btn--primary" href="#experience">Research</a>
         <a class="btn btn--ghost" href="/Baowen_Zhang_CV.pdf" target="_blank" rel="noopener">Curriculum Vitae</a>
         <a class="btn btn--ghost" href="mailto:bzhang13@syr.edu">Contact</a>
       </div>
@@ -97,7 +97,56 @@ redirect_from:
   </div>
 </section>
 
-<section class="section-band reveal-block">
+<section class="section-split-editorial reveal-block" id="profile">
+  <div class="editorial-copy">
+    <p class="section-kicker">Profile</p>
+    <h2>Engineering research shaped by both computational rigor and construction reality.</h2>
+    <p>I am an engineer, researcher, and educator working across sustainable construction, machine learning, and performance-driven building systems. My research aims to turn fragmented project data into methods that can support better decisions at the building, project, and infrastructure scale.</p>
+    <p>Across my work, I use Python, XGBoost, LSTM models, EnergyPlus, Rhino and Grasshopper, ifcopenshell, GIS, and life cycle assessment workflows to connect analysis with practice.</p>
+  </div>
+
+  <div class="editorial-aside">
+    <div class="editorial-note">
+      <p class="panel-label">Current Focus</p>
+      <p>Urban retrofit forecasting, automated IFC-to-energy pipelines, and carbon accounting in timber construction.</p>
+    </div>
+    <div class="editorial-note">
+      <p class="panel-label">Methods</p>
+      <p>Machine learning, energy modeling, BIM, IFC, LCA, computational design, SQL, and decision-support analytics.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-band reveal-block" id="news">
+  <div>
+    <div class="section-head section-head--compact">
+      <p class="section-kicker">Recent News</p>
+      <h2>Short updates and recent signals.</h2>
+    </div>
+
+    <div class="stack-panel">
+      <article class="stack-item">
+        <p class="stack-item__date">Jan 2026</p>
+        <p>Joined Colorado State University Pueblo as Lecturer in Construction Management.</p>
+      </article>
+      <article class="stack-item">
+        <p class="stack-item__date">Dec 2025</p>
+        <p>Completed Ph.D. studies in Sustainable Construction Management and Wood Science at SUNY-ESF.</p>
+      </article>
+      <article class="stack-item">
+        <p class="stack-item__date">Apr 2025</p>
+        <p>Invited speaker at the FPS-SWST International Conference on hardwood CLT performance and A5 construction-phase carbon assessment.</p>
+      </article>
+      <article class="stack-item">
+        <p class="stack-item__date">Sep 2024</p>
+        <p>Paper accepted by <em>Chemical Engineering Journal</em> on flexible lignin polyurethane foam.</p>
+      </article>
+    </div>
+  </div>
+
+</section>
+
+<section class="section-band reveal-block" id="experience">
   <div class="section-head">
     <p class="section-kicker">Research Focus</p>
     <h2>Work organized around forecasting, digital infrastructure, and decarbonization.</h2>
@@ -125,23 +174,46 @@ redirect_from:
   </div>
 </section>
 
-<section class="section-split-editorial reveal-block">
-  <div class="editorial-copy">
-    <p class="section-kicker">Profile</p>
-    <h2>Engineering research shaped by both computational rigor and construction reality.</h2>
-    <p>I am an engineer, researcher, and educator working across sustainable construction, machine learning, and performance-driven building systems. My research aims to turn fragmented project data into methods that can support better decisions at the building, project, and infrastructure scale.</p>
-    <p>Across my work, I use Python, XGBoost, LSTM models, EnergyPlus, Rhino and Grasshopper, ifcopenshell, GIS, and life cycle assessment workflows to connect analysis with practice.</p>
+<section class="section-band reveal-block">
+  <div class="section-head">
+    <p class="section-kicker">Projects</p>
+    <h2>Research projects that define the current arc of my work.</h2>
   </div>
 
-  <div class="editorial-aside">
-    <div class="editorial-note">
-      <p class="panel-label">Current Focus</p>
-      <p>Urban retrofit forecasting, automated IFC-to-energy pipelines, and carbon accounting in timber construction.</p>
-    </div>
-    <div class="editorial-note">
-      <p class="panel-label">Methods</p>
-      <p>Machine learning, energy modeling, BIM, IFC, LCA, computational design, SQL, and decision-support analytics.</p>
-    </div>
+  <div class="feature-grid">
+    <article class="feature-card">
+      <p class="feature-card__index">A</p>
+      <h3>IFC-Based Digital Twin for Automated Energy Modeling</h3>
+      <p>Built workflows that enrich IFC with thermal and HVAC semantics, connect Rhino and Grasshopper with EnergyPlus, and support physical-to-digital feedback for existing-building analysis.</p>
+    </article>
+    <article class="feature-card">
+      <p class="feature-card__index">B</p>
+      <h3>Sustainable Materials, Low-Carbon SCMs, and Mass-Timber LCA</h3>
+      <p>Evaluated high-replacement blended concrete and timber systems through mechanical testing, techno-economic analysis, and cradle-to-gate life cycle assessment.</p>
+    </article>
+    <article class="feature-card">
+      <p class="feature-card__index">C</p>
+      <h3>Stochastic Modeling for Infrastructure Asset Management</h3>
+      <p>Developed AHP-Markov deterioration models to help infrastructure owners forecast service life and allocate maintenance resources more strategically.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section-band reveal-block" id="teaching">
+  <div class="section-head">
+    <p class="section-kicker">Teaching</p>
+    <h2>Courses tied to applied construction workflows.</h2>
+  </div>
+
+  <div class="stack-panel">
+    <article class="stack-item">
+      <h3>CE 361 - Construction Engineering</h3>
+      <p>Engineering economics, project scheduling, earned value analysis, leadership, teamwork, sustainability, ethics, and estimating.</p>
+    </article>
+    <article class="stack-item">
+      <h3>CET 303 - Construction Management</h3>
+      <p>Construction management fundamentals, delivery methods, contracts, insurance, labor relations, feasibility, and life-cycle cost analysis.</p>
+    </article>
   </div>
 </section>
 
@@ -222,52 +294,6 @@ redirect_from:
   </div>
 </section>
 
-<section class="section-split-dual reveal-block" id="news">
-  <div>
-    <div class="section-head section-head--compact">
-      <p class="section-kicker">Recent News</p>
-      <h2>Short updates and recent signals.</h2>
-    </div>
-
-    <div class="stack-panel">
-      <article class="stack-item">
-        <p class="stack-item__date">Jan 2026</p>
-        <p>Joined Colorado State University Pueblo as Lecturer in Construction Management.</p>
-      </article>
-      <article class="stack-item">
-        <p class="stack-item__date">Dec 2025</p>
-        <p>Completed Ph.D. studies in Sustainable Construction Management and Wood Science at SUNY-ESF.</p>
-      </article>
-      <article class="stack-item">
-        <p class="stack-item__date">Apr 2025</p>
-        <p>Invited speaker at the FPS-SWST International Conference on hardwood CLT performance and A5 construction-phase carbon assessment.</p>
-      </article>
-      <article class="stack-item">
-        <p class="stack-item__date">Sep 2024</p>
-        <p>Paper accepted by <em>Chemical Engineering Journal</em> on flexible lignin polyurethane foam.</p>
-      </article>
-    </div>
-  </div>
-
-  <div id="teaching">
-    <div class="section-head section-head--compact">
-      <p class="section-kicker">Teaching</p>
-      <h2>Courses tied to applied construction workflows.</h2>
-    </div>
-
-    <div class="stack-panel">
-      <article class="stack-item">
-        <h3>CE 361 - Construction Engineering</h3>
-        <p>Engineering economics, project scheduling, earned value analysis, leadership, teamwork, sustainability, ethics, and estimating.</p>
-      </article>
-      <article class="stack-item">
-        <h3>CET 303 - Construction Management</h3>
-        <p>Construction management fundamentals, delivery methods, contracts, insurance, labor relations, feasibility, and life-cycle cost analysis.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
 <section class="section-split-dual reveal-block">
   <div id="education">
     <div class="section-head section-head--compact">
@@ -307,30 +333,5 @@ redirect_from:
         <a class="btn btn--ghost" href="https://scholar.google.com/citations?user=ATUYvjoAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Scholar Profile</a>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="section-band reveal-block" id="experience">
-  <div class="section-head">
-    <p class="section-kicker">Projects</p>
-    <h2>Research projects that define the current arc of my work.</h2>
-  </div>
-
-  <div class="feature-grid">
-    <article class="feature-card">
-      <p class="feature-card__index">A</p>
-      <h3>IFC-Based Digital Twin for Automated Energy Modeling</h3>
-      <p>Built workflows that enrich IFC with thermal and HVAC semantics, connect Rhino and Grasshopper with EnergyPlus, and support physical-to-digital feedback for existing-building analysis.</p>
-    </article>
-    <article class="feature-card">
-      <p class="feature-card__index">B</p>
-      <h3>Sustainable Materials, Low-Carbon SCMs, and Mass-Timber LCA</h3>
-      <p>Evaluated high-replacement blended concrete and timber systems through mechanical testing, techno-economic analysis, and cradle-to-gate life cycle assessment.</p>
-    </article>
-    <article class="feature-card">
-      <p class="feature-card__index">C</p>
-      <h3>Stochastic Modeling for Infrastructure Asset Management</h3>
-      <p>Developed AHP-Markov deterioration models to help infrastructure owners forecast service life and allocate maintenance resources more strategically.</p>
-    </article>
   </div>
 </section>

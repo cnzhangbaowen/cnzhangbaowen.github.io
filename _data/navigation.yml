@@ -1,15 +1,13 @@
 # _data/navigation.yml
 main:
   - title: "Profile"
-    url: "#about-me"
-  - title: "Publications"
-    url: "#publications"
+    url: "#profile"
   - title: "News"
     url: "#news"
-  - title: "Teaching"
-    url: "#teaching"
-  - title: "Education"
-    url: "#education"
   - title: "Research"
     url: "#experience"
+  - title: "Teaching"
+    url: "#teaching"
+  - title: "Publications"
+    url: "#publications"
      
