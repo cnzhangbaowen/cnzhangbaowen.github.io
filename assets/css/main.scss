@@ -49,10 +49,11 @@ html {
   --csup-blue-dark: #001a3d;
   --syracuse-orange: #f76900;
   --syracuse-orange-soft: rgba(247, 105, 0, 0.14);
+  --masthead-height: 6.1rem;
 }
 
 section[id] {
-  scroll-margin-top: 6rem;
+  scroll-margin-top: calc(var(--masthead-height) + 1.25rem);
 }
 
 body {
@@ -95,8 +96,10 @@ body:before {
 }
 
 .masthead {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 40;
   background: rgba(250, 250, 249, 0.92);
   backdrop-filter: blur(12px);
@@ -106,8 +109,9 @@ body:before {
 }
 
 .masthead__inner-wrap {
-  padding-top: 0.55rem;
-  padding-bottom: 0.55rem;
+  min-height: var(--masthead-height);
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
 }
 
 .greedy-nav {
@@ -153,8 +157,8 @@ body:before {
 
 .site-logo {
   display: block;
-  width: 218px;
-  max-width: 30vw;
+  width: 190px;
+  max-width: 28vw;
   height: auto;
 }
 
@@ -163,7 +167,7 @@ body:before {
   @include clearfix;
   max-width: 1400px;
   margin-top: 0;
-  padding: 0 1.25rem 4rem;
+  padding: var(--masthead-height) 1.25rem 4rem;
   animation: none;
 }
 
@@ -318,7 +322,7 @@ body:before {
 }
 
 .hero-shell {
-  padding: 3rem 0 2.25rem;
+  padding: 2.4rem 0 2.25rem;
 }
 
 .hero-shell__grid {
@@ -326,7 +330,7 @@ body:before {
   gap: 2.25rem;
 
   @include breakpoint($medium) {
-    grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.72fr);
+    grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.56fr);
     align-items: start;
   }
 }
@@ -612,7 +616,7 @@ body:before {
   overflow: hidden;
   border-radius: 24px;
   justify-self: end;
-  width: min(100%, 430px);
+  width: min(100%, 340px);
   aspect-ratio: 4 / 5;
 }
 
@@ -927,8 +931,12 @@ body:before {
 }
 
 @include breakpoint(max-width $small) {
+  :root {
+    --masthead-height: 4.8rem;
+  }
+
   .hero-shell {
-    padding-top: 2.25rem;
+    padding-top: 1.45rem;
   }
 
   .hero-copy {
@@ -960,8 +968,8 @@ body:before {
   }
 
   .site-logo {
-    width: 164px;
-    max-width: 58vw;
+    width: 142px;
+    max-width: 56vw;
   }
 
   .hero-signals {
