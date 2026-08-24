@@ -42,14 +42,18 @@
 
     function playHeroClip(index) {
       activeHeroClip = index % heroClips.length;
+      hero.classList.remove("is-video-ready");
+      hero.setAttribute("data-active-campus", activeHeroClip === 0 ? "syracuse" : "csu-pueblo");
       heroPlayer.loadVideoById(heroClips[activeHeroClip]);
       heroPlayer.mute();
+      scheduleNextHeroClip(false);
     }
 
-    function scheduleNextHeroClip() {
+    function scheduleNextHeroClip(fromCurrentTime) {
       window.clearTimeout(heroClipTimer);
       var clip = heroClips[activeHeroClip];
-      var remaining = Math.max(0.5, clip.endSeconds - heroPlayer.getCurrentTime() - 0.35);
+      var currentTime = fromCurrentTime ? heroPlayer.getCurrentTime() : clip.startSeconds;
+      var remaining = Math.max(0.5, clip.endSeconds - currentTime - 0.35);
       heroClipTimer = window.setTimeout(function () {
         if (!hero.classList.contains("is-motion-paused")) {
           playHeroClip(activeHeroClip + 1);
@@ -80,12 +84,11 @@
               var iframe = event.target.getIframe();
               iframe.setAttribute("tabindex", "-1");
               iframe.setAttribute("title", "Campus aerial background video");
-              event.target.playVideo();
+              playHeroClip(0);
             },
             onStateChange: function (event) {
               if (event.data === YT.PlayerState.PLAYING) {
                 hero.classList.add("is-video-ready");
-                scheduleNextHeroClip();
               } else if (event.data === YT.PlayerState.ENDED) {
                 playHeroClip(activeHeroClip + 1);
               }
@@ -109,6 +112,7 @@
             heroPlayer.pauseVideo();
           } else {
             heroPlayer.playVideo();
+            scheduleNextHeroClip(true);
           }
         }
         motionToggle.setAttribute("aria-pressed", String(paused));
