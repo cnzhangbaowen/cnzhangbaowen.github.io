@@ -9,91 +9,30 @@ redirect_from:
 ---
 
 <section class="hero-shell reveal-block" id="about-me">
-  <div class="hero-shell__grid">
+  <img class="hero-shell__media" src="/images/baowen-research-hero.png" alt="Baowen Zhang with digital building models representing sustainable construction research">
+  <div class="hero-shell__shade" aria-hidden="true"></div>
+  <div class="hero-shell__content">
     <div class="hero-copy">
-      <p class="kicker">Baowen Zhang</p>
-      <h1 class="hero-title">Data-driven systems for sustainable construction and resilient buildings.</h1>
-      <p class="hero-lead">I build computational methods that connect machine learning, digital twins, energy modeling, and carbon assessment for real construction and retrofit decisions.</p>
+      <p class="kicker">Baowen Zhang · Assistant Professor of Construction Management</p>
+      <h1 class="hero-title">Turning building data into lower-carbon decisions.</h1>
+      <p class="hero-lead">I connect machine learning, digital twins, energy modeling, and carbon assessment to make construction and retrofit decisions more measurable, practical, and resilient.</p>
 
       <div class="hero-cta-row">
-        <a class="btn btn--primary" href="#experience">Research</a>
+        <a class="btn btn--primary" href="#experience">Explore Research <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
         <a class="btn btn--ghost" href="/Baowen_Zhang_CV.pdf" target="_blank" rel="noopener">Curriculum Vitae</a>
-        <a class="btn btn--ghost" href="mailto:bzhang13@syr.edu">Contact</a>
-      </div>
-
-      <div class="hero-meta">
-        <p><span>Current Role</span> Lecturer in Construction Management, Colorado State University Pueblo</p>
-        <p><span>Research Areas</span> Building energy forecasting, IFC-based digital twins, embodied carbon, mass timber, low-carbon materials</p>
-      </div>
-
-      <div class="hero-signals">
-        <article class="signal-card">
-          <div class="signal-card__icon"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
-          <div>
-            <p class="signal-card__label">Forecasting</p>
-            <p class="signal-card__text">Retrofit prediction for policy and performance decisions</p>
-          </div>
-        </article>
-        <article class="signal-card">
-          <div class="signal-card__icon"><i class="fas fa-cubes" aria-hidden="true"></i></div>
-          <div>
-            <p class="signal-card__label">Digital Twin</p>
-            <p class="signal-card__text">IFC-centered workflows that connect geometry, simulation, and carbon data</p>
-          </div>
-        </article>
-        <article class="signal-card">
-          <div class="signal-card__icon"><i class="fas fa-leaf" aria-hidden="true"></i></div>
-          <div>
-            <p class="signal-card__label">Decarbonization</p>
-            <p class="signal-card__text">Low-carbon materials, timber systems, and embodied impact assessment</p>
-          </div>
-        </article>
-      </div>
-
-      <blockquote class="hero-quote">
-        <p>I care about methods that are rigorous enough for research, but practical enough to change the way buildings are analyzed, retrofitted, and delivered.</p>
-      </blockquote>
-    </div>
-
-    <div class="hero-aside">
-      <div class="portrait-panel reveal-block">
-        <img src="/images/Baowen.JPG" alt="Portrait of Baowen Zhang">
-      </div>
-
-      <div class="metrics-panel reveal-block">
-        <div class="panel-heading">
-          <p class="panel-label">Google Scholar</p>
-          <a href="https://scholar.google.com/citations?user=ATUYvjoAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Live profile</a>
-        </div>
-
-        <div class="metrics-grid">
-          <div class="metric-card">
-            <span class="metric-card__value" id="total_cit">--</span>
-            <span class="metric-card__label">Citations</span>
-          </div>
-          <div class="metric-card">
-            <span class="metric-card__value" id="h_index">--</span>
-            <span class="metric-card__label">h-index</span>
-          </div>
-          <div class="metric-card">
-            <span class="metric-card__value" id="i10_index">--</span>
-            <span class="metric-card__label">i10-index</span>
-          </div>
-        </div>
-
-        <p class="metrics-update">Updated <span id="gs_updated">--</span></p>
-      </div>
-
-      <div class="identity-panel reveal-block">
-        <p class="panel-label">Links</p>
-        <ul>
-          <li><a href="https://github.com/cnzhangbaowen" target="_blank" rel="noopener">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/baowen-zhang-18b86916b/" target="_blank" rel="noopener">LinkedIn</a></li>
-          <li><a href="https://orcid.org/0009-0006-9783-9807" target="_blank" rel="noopener">ORCID</a></li>
-          <li><a href="mailto:bzhang13@syr.edu">bzhang13@syr.edu</a></li>
-        </ul>
       </div>
     </div>
+
+    <div class="hero-research-strip" aria-label="Research themes">
+      <p><span>01</span> Energy Forecasting</p>
+      <p><span>02</span> Digital Twins</p>
+      <p><span>03</span> Embodied Carbon</p>
+    </div>
+
+    <a class="hero-scroll" href="#profile" aria-label="Scroll to profile">
+      <span>Scroll</span>
+      <i class="fas fa-chevron-down" aria-hidden="true"></i>
+    </a>
   </div>
 </section>
 
@@ -114,6 +53,18 @@ redirect_from:
       <p class="panel-label">Methods</p>
       <p>Machine learning, energy modeling, BIM, IFC, LCA, computational design, SQL, and decision-support analytics.</p>
     </div>
+    <div class="metrics-panel">
+      <div class="panel-heading">
+        <p class="panel-label">Google Scholar</p>
+        <a href="https://scholar.google.com/citations?user=ATUYvjoAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Live profile</a>
+      </div>
+      <div class="metrics-grid">
+        <div class="metric-card"><span class="metric-card__value" id="total_cit">--</span><span class="metric-card__label">Citations</span></div>
+        <div class="metric-card"><span class="metric-card__value" id="h_index">--</span><span class="metric-card__label">h-index</span></div>
+        <div class="metric-card"><span class="metric-card__value" id="i10_index">--</span><span class="metric-card__label">i10-index</span></div>
+      </div>
+      <p class="metrics-update">Updated <span id="gs_updated">--</span></p>
+    </div>
   </div>
 </section>
 
@@ -127,7 +78,7 @@ redirect_from:
     <div class="stack-panel">
       <article class="stack-item">
         <p class="stack-item__date">Jan 2026</p>
-        <p>Joined Colorado State University Pueblo as Lecturer in Construction Management.</p>
+        <p>Joined Colorado State University Pueblo as Assistant Professor of Construction Management.</p>
       </article>
       <article class="stack-item">
         <p class="stack-item__date">Dec 2025</p>
@@ -199,6 +150,46 @@ redirect_from:
   </div>
 </section>
 
+<section class="section-band reveal-block" id="toolbox">
+  <div class="section-head">
+    <p class="section-kicker">Toolbox</p>
+    <h2>Methods that move from research question to usable decision support.</h2>
+  </div>
+
+  <div class="capability-grid">
+    <article class="capability-card">
+      <div class="feature-card__icon"><i class="fas fa-database" aria-hidden="true"></i></div>
+      <p class="capability-card__eyebrow">Data Foundation</p>
+      <h3>Prepare building and project data for analysis</h3>
+      <ul class="capability-list">
+        <li>IFC enrichment and OpenBIM data extraction</li>
+        <li>SQL-ready datasets for retrofit and asset studies</li>
+        <li>GIS and portfolio-scale context integration</li>
+      </ul>
+    </article>
+    <article class="capability-card">
+      <div class="feature-card__icon"><i class="fas fa-code-branch" aria-hidden="true"></i></div>
+      <p class="capability-card__eyebrow">Modeling Pipeline</p>
+      <h3>Connect simulation, machine learning, and carbon accounting</h3>
+      <ul class="capability-list">
+        <li>Python workflows with XGBoost and LSTM models</li>
+        <li>EnergyPlus, Rhino, Grasshopper, and ifcopenshell</li>
+        <li>LCA workflows for materials and construction stages</li>
+      </ul>
+    </article>
+    <article class="capability-card">
+      <div class="feature-card__icon"><i class="fas fa-layer-group" aria-hidden="true"></i></div>
+      <p class="capability-card__eyebrow">Decision Output</p>
+      <h3>Translate technical models into choices teams can use</h3>
+      <ul class="capability-list">
+        <li>Retrofit scenarios for policy and compliance planning</li>
+        <li>Carbon and energy tradeoff summaries</li>
+        <li>Teaching cases that connect analytics with practice</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
 <section class="section-band reveal-block" id="teaching">
   <div class="section-head">
     <p class="section-kicker">Teaching</p>
@@ -236,7 +227,7 @@ redirect_from:
         <div class="publication-row__tags">
           <span><i class="fas fa-chart-line" aria-hidden="true"></i> ML</span>
           <span><i class="fas fa-city" aria-hidden="true"></i> Retrofit</span>
-          <span><i class="fas fa-scale-balanced" aria-hidden="true"></i> Local Law 97</span>
+          <span><i class="fas fa-balance-scale" aria-hidden="true"></i> Local Law 97</span>
         </div>
       </div>
     </article>
@@ -253,7 +244,7 @@ redirect_from:
         <div class="publication-row__tags">
           <span><i class="fas fa-tree" aria-hidden="true"></i> Mass Timber</span>
           <span><i class="fas fa-cloud" aria-hidden="true"></i> Carbon</span>
-          <span><i class="fas fa-person-digging" aria-hidden="true"></i> A5 Stage</span>
+          <span><i class="fas fa-hard-hat" aria-hidden="true"></i> A5 Stage</span>
         </div>
       </div>
     </article>
@@ -270,7 +261,7 @@ redirect_from:
         <div class="publication-row__tags">
           <span><i class="fas fa-flask" aria-hidden="true"></i> Materials</span>
           <span><i class="fas fa-recycle" aria-hidden="true"></i> Bio-based</span>
-          <span><i class="fas fa-temperature-half" aria-hidden="true"></i> Insulation</span>
+          <span><i class="fas fa-thermometer-half" aria-hidden="true"></i> Insulation</span>
         </div>
       </div>
     </article>
@@ -286,15 +277,15 @@ redirect_from:
         <p>Built an AHP-Markov framework for retaining-wall condition rating and long-term service-life prediction in transportation infrastructure.</p>
         <div class="publication-row__tags">
           <span><i class="fas fa-road" aria-hidden="true"></i> Infrastructure</span>
-          <span><i class="fas fa-diagram-project" aria-hidden="true"></i> Markov</span>
-          <span><i class="fas fa-shield-halved" aria-hidden="true"></i> Asset Life</span>
+          <span><i class="fas fa-project-diagram" aria-hidden="true"></i> Markov</span>
+          <span><i class="fas fa-shield-alt" aria-hidden="true"></i> Asset Life</span>
         </div>
       </div>
     </article>
   </div>
 </section>
 
-<section class="section-split-dual reveal-block">
+<section class="section-split-dual reveal-block" id="collaboration">
   <div id="education">
     <div class="section-head section-head--compact">
       <p class="section-kicker">Education</p>
@@ -328,9 +319,19 @@ redirect_from:
 
     <div class="contact-panel">
       <p>I am especially interested in collaborations around building energy, retrofit analytics, digital twins, embodied carbon, and construction informatics.</p>
+      <ul class="collaboration-list">
+        <li>Research partnerships on energy, carbon, and digital-twin workflows</li>
+        <li>Student projects that turn construction data into practical tools</li>
+        <li>Industry conversations around retrofit planning and low-carbon delivery</li>
+      </ul>
       <div class="hero-cta-row">
         <a class="btn btn--primary" href="mailto:bzhang13@syr.edu">Email Me</a>
         <a class="btn btn--ghost" href="https://scholar.google.com/citations?user=ATUYvjoAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Scholar Profile</a>
+      </div>
+      <div class="network-links" aria-label="Professional profiles">
+        <a href="https://github.com/cnzhangbaowen" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/baowen-zhang-18b86916b/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+        <a href="https://orcid.org/0009-0006-9783-9807" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
