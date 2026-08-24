@@ -4,7 +4,7 @@
 
 # Site Settings
 title                        : "Baowen Zhang (张宝文) - Homepage"
-description                  : ""
+description                  : "Baowen Zhang is an Assistant Professor of Construction Management and sustainable construction researcher working on building energy forecasting, IFC-based digital twins, embodied carbon, and low-carbon materials."
 repository                   : "cnzhangbaowen/cnzhangbaowen.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -20,7 +20,7 @@ baidu_site_verification  : # get baidu_site_verification from https://ziyuan.bai
 author:
   name        : "Baowen Zhang (张宝文)"
   avatar      : "images/Baowen.JPG"
-  bio         : "Lecturer @ CSU Pueblo"
+  bio         : "Assistant Professor @ CSU Pueblo"
   location    : "Syracuse, NY / Pueblo, CO"
   employer    : "CSU Pueblo"
   pubmed      :
