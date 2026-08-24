@@ -89,8 +89,6 @@
             onStateChange: function (event) {
               if (event.data === YT.PlayerState.PLAYING) {
                 hero.classList.add("is-video-ready");
-              } else if (event.data === YT.PlayerState.ENDED) {
-                playHeroClip(activeHeroClip + 1);
               }
             }
           }
