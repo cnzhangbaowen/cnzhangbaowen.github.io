@@ -164,7 +164,7 @@
     });
 
     document.querySelectorAll(".reveal-block").forEach(function (element) {
-      var children = element.querySelectorAll(".feature-card, .capability-card, .publication-row, .stack-item, .signal-card, .editorial-note, .metrics-panel, .identity-panel, .contact-panel");
+      var children = element.querySelectorAll(".feature-card, .capability-card, .publication-row, .stack-item, .signal-card, .editorial-note, .metrics-panel, .identity-panel, .contact-panel, .profile-portrait, .course-card, .testimonial-card");
       children.forEach(function (child, index) {
         child.style.setProperty("--stagger-delay", (index * 90) + "ms");
         child.classList.add("reveal-stagger");
