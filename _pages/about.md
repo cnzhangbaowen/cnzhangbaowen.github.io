@@ -9,8 +9,16 @@ redirect_from:
 ---
 
 <section class="hero-shell reveal-block" id="about-me">
-  <img class="hero-shell__media" src="/images/baowen-research-hero.png" alt="Baowen Zhang with digital building models representing sustainable construction research">
+  <div class="hero-shell__media" aria-hidden="true">
+    <img class="hero-shell__frame" src="/images/baowen-research-hero.png" alt="">
+    <img class="hero-shell__frame" src="/images/research-reel-construction.png" alt="">
+    <img class="hero-shell__frame" src="/images/research-reel-lab.png" alt="">
+    <div class="hero-shell__youtube" id="hero-youtube-player"></div>
+  </div>
   <div class="hero-shell__shade" aria-hidden="true"></div>
+  <button class="hero-motion-toggle" type="button" aria-label="Pause background motion" aria-pressed="false">
+    <i class="fas fa-pause" aria-hidden="true"></i>
+  </button>
   <div class="hero-shell__content">
     <div class="hero-copy">
       <p class="kicker">Baowen Zhang · Assistant Professor of Construction Management</p>
@@ -77,20 +85,20 @@ redirect_from:
 
     <div class="stack-panel">
       <article class="stack-item">
+        <p class="stack-item__date">Jul 2026</p>
+        <p>Published a dual-track assessment framework for quantifying construction-stage energy use in mass timber buildings in <em>Case Studies in Construction Materials</em>.</p>
+      </article>
+      <article class="stack-item">
+        <p class="stack-item__date">Jun 2026</p>
+        <p>Published a machine learning decision-support framework for economically prioritizing multifamily energy retrofits under New York City's Local Law 97 in the <em>Journal of Building Engineering</em>.</p>
+      </article>
+      <article class="stack-item">
         <p class="stack-item__date">Jan 2026</p>
         <p>Joined Colorado State University Pueblo as Assistant Professor of Construction Management.</p>
       </article>
       <article class="stack-item">
         <p class="stack-item__date">Dec 2025</p>
         <p>Completed Ph.D. studies in Sustainable Construction Management and Wood Science at SUNY-ESF.</p>
-      </article>
-      <article class="stack-item">
-        <p class="stack-item__date">Apr 2025</p>
-        <p>Invited speaker at the FPS-SWST International Conference on hardwood CLT performance and A5 construction-phase carbon assessment.</p>
-      </article>
-      <article class="stack-item">
-        <p class="stack-item__date">Sep 2024</p>
-        <p>Paper accepted by <em>Chemical Engineering Journal</em> on flexible lignin polyurethane foam.</p>
       </article>
     </div>
   </div>
@@ -193,17 +201,29 @@ redirect_from:
 <section class="section-band reveal-block" id="teaching">
   <div class="section-head">
     <p class="section-kicker">Teaching</p>
-    <h2>Courses tied to applied construction workflows.</h2>
+    <h2>Fall 2026 courses in estimating, building systems, structures, and law.</h2>
   </div>
 
   <div class="stack-panel">
     <article class="stack-item">
-      <h3>CE 361 - Construction Engineering</h3>
-      <p>Engineering economics, project scheduling, earned value analysis, leadership, teamwork, sustainability, ethics, and estimating.</p>
+      <p class="stack-item__date">Fall 2026 · Tue/Thu · 2:00-3:15 PM</p>
+      <h3>CET 305 - Heavy/Highway Cost Estimating</h3>
+      <p>Cost estimating methods and bid preparation for heavy civil and highway construction. Tech, Education, &amp; Engineering Building, Room 113.</p>
     </article>
     <article class="stack-item">
-      <h3>CET 303 - Construction Management</h3>
-      <p>Construction management fundamentals, delivery methods, contracts, insurance, labor relations, feasibility, and life-cycle cost analysis.</p>
+      <p class="stack-item__date">Fall 2026 · Mon/Wed · 10:00-11:45 AM</p>
+      <h3>CM 330 - Wood Structural Systems</h3>
+      <p>Design and construction principles for wood structural systems. Tech, Education, &amp; Engineering Building, Room 112.</p>
+    </article>
+    <article class="stack-item">
+      <p class="stack-item__date">Fall 2026 · Mon/Wed · 9:00-10:50 AM</p>
+      <h3>CM 451 - Mechanical &amp; Electrical Systems</h3>
+      <p>Building mechanical and electrical systems for construction planning, coordination, and delivery. Tech, Education, &amp; Engineering Building, Room 230.</p>
+    </article>
+    <article class="stack-item">
+      <p class="stack-item__date">Fall 2026 · Mon/Wed · 8:00-9:45 AM</p>
+      <h3>CM 461 - Construction Law</h3>
+      <p>Legal principles, contracts, risk, and dispute issues affecting construction practice. Tech, Education, &amp; Engineering Building, Room 230.</p>
     </article>
   </div>
 </section>
@@ -220,8 +240,8 @@ redirect_from:
         <img src="/images/pub/JoBE.jpg" alt="Journal of Building Engineering cover art">
       </div>
       <div class="publication-row__body">
-        <p class="publication-row__meta">Journal of Building Engineering - 2026 - Under Review</p>
-        <h3>Machine learning-based energy retrofit forecasting for multifamily buildings under NYC Local Law 97</h3>
+        <p class="publication-row__meta">Journal of Building Engineering - 2026 - Vol. 128 - 116461</p>
+        <h3><a href="https://www.sciencedirect.com/science/article/pii/S2352710226012829" target="_blank" rel="noopener">An integrated machine learning approach to economically prioritize energy conservation measures for multifamily buildings under New York City's Local Law 97</a></h3>
         <p class="publication-row__authors"><strong>Baowen Zhang</strong>, P. Crovella</p>
         <p>Developed predictive retrofit models using XGBoost and LSTM to estimate compliance-driven building upgrades for New York City multifamily housing.</p>
         <div class="publication-row__tags">
@@ -237,8 +257,8 @@ redirect_from:
         <img src="/images/pub/CSCM.jpg" alt="Case Studies in Construction Materials cover art">
       </div>
       <div class="publication-row__body">
-        <p class="publication-row__meta">Case Studies in Construction Materials - 2026</p>
-        <h3>Quantifying Construction-Stage (A5) Energy Consumption in Mass Timber Buildings: A Dual-Track Assessment Framework</h3>
+        <p class="publication-row__meta">Case Studies in Construction Materials - 2026 - e06280</p>
+        <h3><a href="https://www.sciencedirect.com/science/article/pii/S2214509526005310" target="_blank" rel="noopener">Quantifying construction-stage (A5) energy consumption in mass timber buildings: A dual-track assessment framework</a></h3>
         <p class="publication-row__authors"><strong>Baowen Zhang</strong>, Hongmei Gu, Paul Crovella</p>
         <p>Proposed a dual-track framework to measure A5 construction energy use and improve embodied-carbon accounting in timber construction projects.</p>
         <div class="publication-row__tags">
@@ -254,8 +274,8 @@ redirect_from:
         <img src="/images/pub/CEJ.jpg" alt="Chemical Engineering Journal cover art">
       </div>
       <div class="publication-row__body">
-        <p class="publication-row__meta">Chemical Engineering Journal - 2024</p>
-        <h3><a href="https://doi.org/10.1016/j.cej.2024.156142" target="_blank" rel="noopener">Green co-solvent-assisted one-pot synthesis of high-performance flexible lignin polyurethane foam</a></h3>
+        <p class="publication-row__meta">Chemical Engineering Journal - 2024 - Vol. 499 - 156142</p>
+        <h3><a href="https://www.sciencedirect.com/science/article/pii/S1385894724076332" target="_blank" rel="noopener">Green co-solvent-assisted one-pot synthesis of high-performance flexible lignin polyurethane foam</a></h3>
         <p class="publication-row__authors">Mairui Zhang, Soyeon Jeong, Woongbi Cho, Jiae Ryu, <strong>Baowen Zhang</strong>, Paul Crovella, Arthur J. Ragauskas, Jeong Jae Wie, Chang Geun Yoo</p>
         <p>Improved the flexibility and strength of lignin-based polyurethane foam with a greener synthesis route while maintaining competitive insulation performance.</p>
         <div class="publication-row__tags">
