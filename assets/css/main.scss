@@ -418,10 +418,13 @@ body:before {
   animation-play-state: paused;
 }
 
-.hero-shell__youtube iframe {
+.hero-shell__youtube iframe,
+iframe.hero-shell__youtube {
   position: absolute;
   top: 50%;
   left: 50%;
+  right: auto;
+  bottom: auto;
   width: 100vw;
   height: 56.25vw;
   min-width: 177.78vh;
