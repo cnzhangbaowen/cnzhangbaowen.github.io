@@ -47,10 +47,15 @@ redirect_from:
 <section class="section-split-editorial reveal-block" id="profile">
   <div class="editorial-copy">
     <p class="section-kicker">Profile</p>
-    <h2>Engineering research shaped by both computational rigor and construction reality.</h2>
-    <p>I am an engineer, researcher, and educator working across sustainable construction, machine learning, and performance-driven building systems. My research aims to turn fragmented project data into methods that can support better decisions at the building, project, and infrastructure scale.</p>
-    <p>Across my work, I use Python, XGBoost, LSTM models, EnergyPlus, Rhino and Grasshopper, ifcopenshell, GIS, and life cycle assessment workflows to connect analysis with practice.</p>
+    <h2>Building better decisions from the data construction already creates.</h2>
+    <p>I am an Assistant Professor of Construction Management at Colorado State University Pueblo. My work sits where building science, construction operations, and computation meet: I develop practical ways to measure energy, carbon, cost, and performance before they become expensive field decisions.</p>
+    <p>From machine-learning models for urban retrofits to digital-twin workflows and construction-stage energy assessment for mass timber, I focus on research that can move beyond a paper and into classrooms, project teams, and the built environment.</p>
   </div>
+
+  <figure class="profile-portrait">
+    <img src="/images/Baowen.JPG" alt="Formal portrait of Baowen Zhang">
+    <figcaption><strong>Baowen Zhang, Ph.D.</strong><span>Assistant Professor of Construction Management</span></figcaption>
+  </figure>
 
   <div class="editorial-aside">
     <div class="editorial-note">
@@ -201,30 +206,98 @@ redirect_from:
 <section class="section-band reveal-block" id="teaching">
   <div class="section-head">
     <p class="section-kicker">Teaching</p>
-    <h2>Fall 2026 courses in estimating, building systems, structures, and law.</h2>
+    <h2>Construction education grounded in clear communication and real project decisions.</h2>
+    <p>My courses connect technical fundamentals with the contracts, systems, costs, and collaboration practices students will encounter in the field.</p>
   </div>
 
-  <div class="stack-panel">
-    <article class="stack-item">
-      <p class="stack-item__date">Fall 2026 · Tue/Thu · 2:00-3:15 PM</p>
-      <h3>CET 305 - Heavy/Highway Cost Estimating</h3>
-      <p>Cost estimating methods and bid preparation for heavy civil and highway construction. Tech, Education, &amp; Engineering Building, Room 113.</p>
+  <nav class="course-finder" aria-label="Find a course">
+    <div>
+      <p class="panel-label">Find a course</p>
+      <p>Select a course code to open its details.</p>
+    </div>
+    <div class="course-chip-row">
+      <a href="#course-cet-305">CET 305</a>
+      <a href="#course-cm-330">CM 330</a>
+      <a href="#course-cm-451">CM 451</a>
+      <a href="#course-cm-461">CM 461</a>
+      <a href="#course-ce-361">CE 361</a>
+      <a href="#course-cet-303">CET 303</a>
+    </div>
+  </nav>
+
+  <div class="course-group-heading">
+    <p class="section-kicker">Fall 2026</p>
+    <h3>Current Courses</h3>
+  </div>
+  <div class="course-grid">
+    <article class="course-card" id="course-cet-305">
+      <div class="course-card__top"><span class="course-code">CET 305</span><i class="fas fa-calculator" aria-hidden="true"></i></div>
+      <p class="course-card__level">Construction Engineering Technology</p>
+      <h3>Heavy/Highway Cost Estimating</h3>
+      <p>Cost estimating methods and bid preparation for heavy civil and highway construction.</p>
+      <p class="course-card__schedule">Tue/Thu &middot; 2:00-3:15 PM &middot; TEE 113</p>
     </article>
-    <article class="stack-item">
-      <p class="stack-item__date">Fall 2026 · Mon/Wed · 10:00-11:45 AM</p>
-      <h3>CM 330 - Wood Structural Systems</h3>
-      <p>Design and construction principles for wood structural systems. Tech, Education, &amp; Engineering Building, Room 112.</p>
+    <article class="course-card" id="course-cm-330">
+      <div class="course-card__top"><span class="course-code">CM 330</span><i class="fas fa-tree" aria-hidden="true"></i></div>
+      <p class="course-card__level">Construction Management</p>
+      <h3>Wood Structural Systems</h3>
+      <p>Design and construction principles for wood structural systems.</p>
+      <p class="course-card__schedule">Mon/Wed &middot; 10:00-11:45 AM &middot; TEE 112</p>
     </article>
-    <article class="stack-item">
-      <p class="stack-item__date">Fall 2026 · Mon/Wed · 9:00-10:50 AM</p>
-      <h3>CM 451 - Mechanical &amp; Electrical Systems</h3>
-      <p>Building mechanical and electrical systems for construction planning, coordination, and delivery. Tech, Education, &amp; Engineering Building, Room 230.</p>
+    <article class="course-card" id="course-cm-451">
+      <div class="course-card__top"><span class="course-code">CM 451</span><i class="fas fa-fan" aria-hidden="true"></i></div>
+      <p class="course-card__level">Construction Management</p>
+      <h3>Mechanical &amp; Electrical Systems</h3>
+      <p>Building systems for construction planning, coordination, and delivery.</p>
+      <p class="course-card__schedule">Mon/Wed &middot; 9:00-10:50 AM &middot; TEE 230</p>
     </article>
-    <article class="stack-item">
-      <p class="stack-item__date">Fall 2026 · Mon/Wed · 8:00-9:45 AM</p>
-      <h3>CM 461 - Construction Law</h3>
-      <p>Legal principles, contracts, risk, and dispute issues affecting construction practice. Tech, Education, &amp; Engineering Building, Room 230.</p>
+    <article class="course-card" id="course-cm-461">
+      <div class="course-card__top"><span class="course-code">CM 461</span><i class="fas fa-balance-scale" aria-hidden="true"></i></div>
+      <p class="course-card__level">Construction Management</p>
+      <h3>Construction Law</h3>
+      <p>Legal principles, contracts, risk, and dispute issues affecting construction practice.</p>
+      <p class="course-card__schedule">Mon/Wed &middot; 8:00-9:45 AM &middot; TEE 230</p>
     </article>
+  </div>
+
+  <div class="course-group-heading course-group-heading--past">
+    <p class="section-kicker">Teaching Record</p>
+    <h3>Previously Taught</h3>
+  </div>
+  <div class="course-grid course-grid--past">
+    <article class="course-card" id="course-ce-361">
+      <div class="course-card__top"><span class="course-code">CE 361</span><i class="fas fa-hard-hat" aria-hidden="true"></i></div>
+      <p class="course-card__level">Civil Engineering</p>
+      <h3>Construction Engineering</h3>
+      <p>Engineering economics, project scheduling, earned value analysis, leadership, teamwork, sustainability, ethics, and estimating.</p>
+    </article>
+    <article class="course-card" id="course-cet-303">
+      <div class="course-card__top"><span class="course-code">CET 303</span><i class="fas fa-project-diagram" aria-hidden="true"></i></div>
+      <p class="course-card__level">Construction Engineering Technology</p>
+      <h3>Construction Management</h3>
+      <p>Delivery methods, contracts, insurance, labor relations, feasibility, and life-cycle cost analysis.</p>
+    </article>
+  </div>
+
+  <div class="student-voice">
+    <div class="section-head section-head--compact">
+      <p class="section-kicker">The Student Voice</p>
+      <h3>What students say</h3>
+    </div>
+    <div class="testimonial-grid">
+      <blockquote class="testimonial-card">
+        <i class="fas fa-quote-left" aria-hidden="true"></i>
+        <p>he took his time to answer questions with students and was always enthusiastic about his answers and helping in any way he can. this, in turn, made it easier to understand complex topics and class material.</p>
+      </blockquote>
+      <blockquote class="testimonial-card">
+        <i class="fas fa-quote-left" aria-hidden="true"></i>
+        <p>he is a young professor there was far less friction(no in this case) in terms of student to professor communication and understanding. Professor Zhang is incredibly good at facilitating class participation and conversations with his students. Typically older professors have some perceived notions of manners and being hard to approach for things directly, creating a "work only" environment which prevents critical engagement and productive meetings of minds are prevented by the overall structure.</p>
+      </blockquote>
+      <blockquote class="testimonial-card">
+        <i class="fas fa-quote-left" aria-hidden="true"></i>
+        <p>Professor Zhang has easily been my favorite professor I have ever had, and I felt I could ask him anything class related and he could help me.</p>
+      </blockquote>
+    </div>
   </div>
 </section>
 
