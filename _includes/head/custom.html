@@ -30,6 +30,78 @@
     document.body.appendChild(progressBar);
     var masthead = document.querySelector(".masthead");
     var navLinks = Array.prototype.slice.call(document.querySelectorAll('.greedy-nav a[href*="#"]'));
+    var hero = document.querySelector(".hero-shell");
+    var motionToggle = document.querySelector(".hero-motion-toggle");
+    var heroPlayer = null;
+    var activeHeroClip = 0;
+    var heroClips = [
+      { videoId: "rm1mEx0B_Ro", startSeconds: 4, endSeconds: 14 },
+      { videoId: "42sH6JL4Ns8", startSeconds: 5, endSeconds: 14 }
+    ];
+
+    function playHeroClip(index) {
+      activeHeroClip = index % heroClips.length;
+      heroPlayer.loadVideoById(heroClips[activeHeroClip]);
+      heroPlayer.mute();
+    }
+
+    if (hero && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      window.onYouTubeIframeAPIReady = function () {
+        heroPlayer = new YT.Player("hero-youtube-player", {
+          videoId: heroClips[0].videoId,
+          playerVars: {
+            autoplay: 1,
+            controls: 0,
+            disablekb: 1,
+            enablejsapi: 1,
+            fs: 0,
+            iv_load_policy: 3,
+            modestbranding: 1,
+            playsinline: 1,
+            rel: 0,
+            start: heroClips[0].startSeconds,
+            end: heroClips[0].endSeconds
+          },
+          events: {
+            onReady: function (event) {
+              event.target.mute();
+              var iframe = event.target.getIframe();
+              iframe.setAttribute("tabindex", "-1");
+              iframe.setAttribute("title", "Campus aerial background video");
+              event.target.playVideo();
+            },
+            onStateChange: function (event) {
+              if (event.data === YT.PlayerState.PLAYING) {
+                hero.classList.add("is-video-ready");
+              } else if (event.data === YT.PlayerState.ENDED) {
+                playHeroClip(activeHeroClip + 1);
+              }
+            }
+          }
+        });
+      };
+
+      var youtubeApi = document.createElement("script");
+      youtubeApi.src = "https://www.youtube.com/iframe_api";
+      youtubeApi.async = true;
+      document.head.appendChild(youtubeApi);
+    }
+
+    if (hero && motionToggle) {
+      motionToggle.addEventListener("click", function () {
+        var paused = hero.classList.toggle("is-motion-paused");
+        if (heroPlayer) {
+          if (paused) {
+            heroPlayer.pauseVideo();
+          } else {
+            heroPlayer.playVideo();
+          }
+        }
+        motionToggle.setAttribute("aria-pressed", String(paused));
+        motionToggle.setAttribute("aria-label", paused ? "Play background motion" : "Pause background motion");
+        motionToggle.querySelector("i").className = paused ? "fas fa-play" : "fas fa-pause";
+      });
+    }
 
     function updateScrollProgress() {
       var maxScroll = document.documentElement.scrollHeight - window.innerHeight;
