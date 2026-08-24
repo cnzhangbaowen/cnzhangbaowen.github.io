@@ -953,6 +953,11 @@ iframe.hero-shell__youtube {
   margin-top: 5rem;
 }
 
+.section-split-editorial[id],
+.section-band[id] {
+  scroll-margin-top: calc(var(--masthead-height) + 1.25rem);
+}
+
 #profile {
   @include breakpoint($large) {
     grid-template-columns: minmax(0, 1.1fr) minmax(220px, 0.58fr) minmax(280px, 0.86fr);
