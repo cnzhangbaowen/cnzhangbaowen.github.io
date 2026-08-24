@@ -34,6 +34,7 @@
     var motionToggle = document.querySelector(".hero-motion-toggle");
     var heroPlayer = null;
     var activeHeroClip = 0;
+    var heroClipTimer = null;
     var heroClips = [
       { videoId: "rm1mEx0B_Ro", startSeconds: 4, endSeconds: 14 },
       { videoId: "42sH6JL4Ns8", startSeconds: 5, endSeconds: 14 }
@@ -43,6 +44,17 @@
       activeHeroClip = index % heroClips.length;
       heroPlayer.loadVideoById(heroClips[activeHeroClip]);
       heroPlayer.mute();
+    }
+
+    function scheduleNextHeroClip() {
+      window.clearTimeout(heroClipTimer);
+      var clip = heroClips[activeHeroClip];
+      var remaining = Math.max(0.5, clip.endSeconds - heroPlayer.getCurrentTime() - 0.35);
+      heroClipTimer = window.setTimeout(function () {
+        if (!hero.classList.contains("is-motion-paused")) {
+          playHeroClip(activeHeroClip + 1);
+        }
+      }, remaining * 1000);
     }
 
     if (hero && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
@@ -73,6 +85,7 @@
             onStateChange: function (event) {
               if (event.data === YT.PlayerState.PLAYING) {
                 hero.classList.add("is-video-ready");
+                scheduleNextHeroClip();
               } else if (event.data === YT.PlayerState.ENDED) {
                 playHeroClip(activeHeroClip + 1);
               }
@@ -92,6 +105,7 @@
         var paused = hero.classList.toggle("is-motion-paused");
         if (heroPlayer) {
           if (paused) {
+            window.clearTimeout(heroClipTimer);
             heroPlayer.pauseVideo();
           } else {
             heroPlayer.playVideo();
