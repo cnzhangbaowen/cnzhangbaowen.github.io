@@ -6,7 +6,7 @@ main:
     url: "#news"
   - title: "Research"
     url: "#experience"
-  - title: "Toolbox"
+  - title: "Methods"
     url: "#toolbox"
   - title: "Teaching"
     url: "#teaching"
