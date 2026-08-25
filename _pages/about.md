@@ -117,23 +117,32 @@ redirect_from:
   </div>
 
   <div class="feature-grid">
-    <article class="feature-card">
-      <div class="feature-card__icon"><i class="fas fa-bolt" aria-hidden="true"></i></div>
-      <p class="feature-card__index">01</p>
-      <h3>Energy Retrofit Forecasting</h3>
-      <p>Predictive models for building upgrades, compliance planning, and portfolio-level decision support under urban climate policy.</p>
+    <article class="feature-card feature-card--visual">
+      <div class="feature-card__media"><img src="/images/research-ll97.png" alt="New York City skyline and building systems illustrating Local Law 97 compliance"></div>
+      <div class="feature-card__body">
+        <div class="feature-card__icon"><i class="fas fa-bolt" aria-hidden="true"></i></div>
+        <p class="feature-card__index">01</p>
+        <h3>Urban Energy Retrofit and LL97</h3>
+        <p>Machine-learning models for prioritizing multifamily energy conservation measures under New York City's Local Law 97.</p>
+      </div>
     </article>
-    <article class="feature-card">
-      <div class="feature-card__icon"><i class="fas fa-draw-polygon" aria-hidden="true"></i></div>
-      <p class="feature-card__index">02</p>
-      <h3>Digital Twin and IFC Workflows</h3>
-      <p>OpenBIM pipelines that connect IFC semantics, energy simulation, and analysis-ready data for existing and new buildings.</p>
+    <article class="feature-card feature-card--visual">
+      <div class="feature-card__media"><img src="/images/research-ifc-digital-twin.png" alt="Point-cloud building survey with handheld thermal imaging and an AI-assisted digital twin workflow"></div>
+      <div class="feature-card__body">
+        <div class="feature-card__icon"><i class="fas fa-draw-polygon" aria-hidden="true"></i></div>
+        <p class="feature-card__index">02</p>
+        <h3>AI-Assisted Digital Twin and IFC Workflows</h3>
+        <p>Semantic IFC pipelines combining point-cloud capture, handheld thermography, AI agents, and EnergyPlus-ready models.</p>
+      </div>
     </article>
-    <article class="feature-card">
-      <div class="feature-card__icon"><i class="fas fa-seedling" aria-hidden="true"></i></div>
-      <p class="feature-card__index">03</p>
-      <h3>Embodied Carbon and Materials</h3>
-      <p>Assessment methods for mass timber, supplementary cementitious materials, and low-carbon construction strategies.</p>
+    <article class="feature-card feature-card--visual">
+      <div class="feature-card__media feature-card__media--contain"><img src="/images/research-a5-prototype.png" alt="Mass-timber and hybrid high-rise building prototypes used for construction-stage energy assessment"></div>
+      <div class="feature-card__body">
+        <div class="feature-card__icon"><i class="fas fa-seedling" aria-hidden="true"></i></div>
+        <p class="feature-card__index">03</p>
+        <h3>Construction-Stage Energy and Embodied Carbon</h3>
+        <p>Dual-track A5 assessment for mass-timber and hybrid buildings, alongside material and life-cycle carbon research.</p>
+      </div>
     </article>
   </div>
 </section>
@@ -165,15 +174,21 @@ redirect_from:
 
 <section class="section-band reveal-block" id="toolbox">
   <div class="section-head">
-    <p class="section-kicker">Toolbox</p>
-    <h2>Methods that move from research question to usable decision support.</h2>
+    <p class="section-kicker">Research Methods</p>
+    <h2>Computational methods and technical infrastructure for reproducible building research.</h2>
+    <p>This research environment connects field observations, semantic building data, simulation, machine learning, and life-cycle evidence in traceable workflows.</p>
   </div>
+
+  <figure class="methods-visual">
+    <img src="/images/research-methods-infrastructure.png" alt="Integrated workflow connecting BIM data, machine learning, building simulation, material assessment, and decision support">
+    <figcaption>From structured building information to models, evidence, and decisions.</figcaption>
+  </figure>
 
   <div class="capability-grid">
     <article class="capability-card">
       <div class="feature-card__icon"><i class="fas fa-database" aria-hidden="true"></i></div>
-      <p class="capability-card__eyebrow">Data Foundation</p>
-      <h3>Prepare building and project data for analysis</h3>
+      <p class="capability-card__eyebrow">Research Data</p>
+      <h3>Data acquisition and semantic structuring</h3>
       <ul class="capability-list">
         <li>IFC enrichment and OpenBIM data extraction</li>
         <li>SQL-ready datasets for retrofit and asset studies</li>
@@ -182,8 +197,8 @@ redirect_from:
     </article>
     <article class="capability-card">
       <div class="feature-card__icon"><i class="fas fa-code-branch" aria-hidden="true"></i></div>
-      <p class="capability-card__eyebrow">Modeling Pipeline</p>
-      <h3>Connect simulation, machine learning, and carbon accounting</h3>
+      <p class="capability-card__eyebrow">Analytical Methods</p>
+      <h3>Computational modeling and simulation</h3>
       <ul class="capability-list">
         <li>Python workflows with XGBoost and LSTM models</li>
         <li>EnergyPlus, Rhino, Grasshopper, and ifcopenshell</li>
@@ -192,8 +207,8 @@ redirect_from:
     </article>
     <article class="capability-card">
       <div class="feature-card__icon"><i class="fas fa-layer-group" aria-hidden="true"></i></div>
-      <p class="capability-card__eyebrow">Decision Output</p>
-      <h3>Translate technical models into choices teams can use</h3>
+      <p class="capability-card__eyebrow">Research Translation</p>
+      <h3>Evidence synthesis and decision support</h3>
       <ul class="capability-list">
         <li>Retrofit scenarios for policy and compliance planning</li>
         <li>Carbon and energy tradeoff summaries</li>
@@ -285,13 +300,13 @@ redirect_from:
       <h3>What students say</h3>
     </div>
     <div class="testimonial-grid">
-      <blockquote class="testimonial-card">
+      <blockquote class="testimonial-card testimonial-card--featured">
         <i class="fas fa-quote-left" aria-hidden="true"></i>
-        <p>he took his time to answer questions with students and was always enthusiastic about his answers and helping in any way he can. this, in turn, made it easier to understand complex topics and class material.</p>
+        <p>he is a young professor there was far less friction(no in this case) in terms of student to professor communication and understanding. Professor Zhang is incredibly good at facilitating class participation and conversations with his students. Typically older professors have some perceived notions of manners and being hard to approach for things directly, creating a "work only" environment which prevents critical engagement and productive meetings of minds are prevented by the overall structure.</p>
       </blockquote>
       <blockquote class="testimonial-card">
         <i class="fas fa-quote-left" aria-hidden="true"></i>
-        <p>he is a young professor there was far less friction(no in this case) in terms of student to professor communication and understanding. Professor Zhang is incredibly good at facilitating class participation and conversations with his students. Typically older professors have some perceived notions of manners and being hard to approach for things directly, creating a "work only" environment which prevents critical engagement and productive meetings of minds are prevented by the overall structure.</p>
+        <p>he took his time to answer questions with students and was always enthusiastic about his answers and helping in any way he can. this, in turn, made it easier to understand complex topics and class material.</p>
       </blockquote>
       <blockquote class="testimonial-card">
         <i class="fas fa-quote-left" aria-hidden="true"></i>
