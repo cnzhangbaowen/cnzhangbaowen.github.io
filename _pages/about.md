@@ -4,7 +4,7 @@ title: ""
 excerpt: ""
 author_profile: false
 redirect_from:
-  - /about/
+  - /about/<div class="stack-panel">
   - /about.html
 ---
 
@@ -87,8 +87,12 @@ redirect_from:
       <p class="section-kicker">Recent News</p>
       <h2>Short updates and recent signals.</h2>
     </div>
-
+    
     <div class="stack-panel">
+     <article class="stack-item">
+       <p class="stack-item__date">Oct 2026</p>
+       <p>Published a sustainability-based multicriteria analysis of concrete designed to maximize the use of local waste materials in <em>Cleaner Engineering and Technology</em>.</p>
+      </article>
       <article class="stack-item">
         <p class="stack-item__date">Jul 2026</p>
         <p>Published a dual-track assessment framework for quantifying construction-stage energy use in mass timber buildings in <em>Case Studies in Construction Materials</em>.</p>
@@ -356,6 +360,23 @@ redirect_from:
         </div>
       </div>
     </article>
+
+    <article class="publication-row">
+  <div class="publication-row__image">
+    <img src="/images/pub/CET.jpg" alt="Cleaner Engineering and Technology cover art">
+  </div>
+  <div class="publication-row__body">
+    <p class="publication-row__meta">Cleaner Engineering and Technology - 2026 - 101335</p>
+    <h3><a href="https://doi.org/10.1016/j.clet.2026.101335" target="_blank" rel="noopener">Designing sustainable concrete to maximize the use of local waste materials: Mechanical, durability, and sustainability-based multicriteria analysis</a></h3>
+    <p class="publication-row__authors"><strong>Baowen Zhang</strong>, Minhajul Islam Aman, Paul Crovella, Md. Uzzal Hossain</p>
+    <p>Evaluates concrete mixtures designed to maximize local waste-material use through mechanical, durability, and sustainability-based multicriteria analysis.</p>
+    <div class="publication-row__tags">
+      <span><i class="fas fa-recycle" aria-hidden="true"></i> Local Waste</span>
+      <span><i class="fas fa-cubes" aria-hidden="true"></i> Concrete</span>
+      <span><i class="fas fa-leaf" aria-hidden="true"></i> Sustainability</span>
+    </div>
+  </div>
+</article>
 
     <article class="publication-row">
       <div class="publication-row__image">
