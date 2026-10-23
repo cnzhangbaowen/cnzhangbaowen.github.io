@@ -81,17 +81,22 @@ redirect_from:
   </div>
 </section>
 
+
 <section class="section-band reveal-block" id="news">
   <div>
     <div class="section-head section-head--compact">
       <p class="section-kicker">Recent News</p>
       <h2>Short updates and recent signals.</h2>
     </div>
-    
+
     <div class="stack-panel">
-     <article class="stack-item">
-       <p class="stack-item__date">Oct 2026</p>
-       <p>Published a sustainability-based multicriteria analysis of concrete designed to maximize the use of local waste materials in <em>Cleaner Engineering and Technology</em>.</p>
+      <article class="stack-item">
+        <p class="stack-item__date">Oct 2026</p>
+        <p>My first-authored research on construction-stage energy consumption in mass timber buildings was featured in the USDA Forest Service's <em>Rooted in Research</em> newsletter during National Forest Products Week.</p>
+      </article>
+      <article class="stack-item">
+        <p class="stack-item__date">Oct 2026</p>
+        <p>Published a sustainability-based multicriteria analysis of concrete designed to maximize the use of local waste materials in <em>Cleaner Engineering and Technology</em>.</p>
       </article>
       <article class="stack-item">
         <p class="stack-item__date">Jul 2026</p>
@@ -111,8 +116,9 @@ redirect_from:
       </article>
     </div>
   </div>
-
 </section>
+
+
 
 <section class="section-band reveal-block" id="experience">
   <div class="section-head">
