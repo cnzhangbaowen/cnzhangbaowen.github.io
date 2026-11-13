@@ -6,12 +6,13 @@
 <meta name="msapplication-TileColor" content="#17352b">
 <meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
-<meta name="theme-color" content="#fafaf9">
+<meta name="theme-color" content="#031323">
 <link rel="stylesheet" href="assets/css/academicons.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="/images/web/hero-1.webp" type="image/webp">
 
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
@@ -23,162 +24,3 @@
   });
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML" async></script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var progressBar = document.createElement("div");
-    progressBar.id = "scroll-progress";
-    document.body.appendChild(progressBar);
-    var masthead = document.querySelector(".masthead");
-    var navLinks = Array.prototype.slice.call(document.querySelectorAll('.greedy-nav a[href*="#"]'));
-    var hero = document.querySelector(".hero-shell");
-    var motionToggle = document.querySelector(".hero-motion-toggle");
-    var heroPlayer = null;
-    var activeHeroClip = 0;
-    var heroClipTimer = null;
-    var heroClips = [
-      { videoId: "rm1mEx0B_Ro", startSeconds: 4, endSeconds: 14 },
-      { videoId: "42sH6JL4Ns8", startSeconds: 5, endSeconds: 14 }
-    ];
-
-    function playHeroClip(index) {
-      activeHeroClip = index % heroClips.length;
-      hero.classList.remove("is-video-ready");
-      hero.setAttribute("data-active-campus", activeHeroClip === 0 ? "syracuse" : "csu-pueblo");
-      heroPlayer.loadVideoById(heroClips[activeHeroClip]);
-      heroPlayer.mute();
-      scheduleNextHeroClip(false);
-    }
-
-    function scheduleNextHeroClip(fromCurrentTime) {
-      window.clearTimeout(heroClipTimer);
-      var clip = heroClips[activeHeroClip];
-      var currentTime = fromCurrentTime ? heroPlayer.getCurrentTime() : clip.startSeconds;
-      var remaining = Math.max(0.5, clip.endSeconds - currentTime - 0.35);
-      heroClipTimer = window.setTimeout(function () {
-        if (!hero.classList.contains("is-motion-paused")) {
-          playHeroClip(activeHeroClip + 1);
-        }
-      }, remaining * 1000);
-    }
-
-    if (hero && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      window.onYouTubeIframeAPIReady = function () {
-        heroPlayer = new YT.Player("hero-youtube-player", {
-          videoId: heroClips[0].videoId,
-          playerVars: {
-            autoplay: 1,
-            controls: 0,
-            disablekb: 1,
-            enablejsapi: 1,
-            fs: 0,
-            iv_load_policy: 3,
-            modestbranding: 1,
-            playsinline: 1,
-            rel: 0,
-            start: heroClips[0].startSeconds,
-            end: heroClips[0].endSeconds
-          },
-          events: {
-            onReady: function (event) {
-              event.target.mute();
-              var iframe = event.target.getIframe();
-              iframe.setAttribute("tabindex", "-1");
-              iframe.setAttribute("title", "Campus aerial background video");
-              playHeroClip(0);
-            },
-            onStateChange: function (event) {
-              if (event.data === YT.PlayerState.PLAYING) {
-                hero.classList.add("is-video-ready");
-              }
-            }
-          }
-        });
-      };
-
-      var youtubeApi = document.createElement("script");
-      youtubeApi.src = "https://www.youtube.com/iframe_api";
-      youtubeApi.async = true;
-      document.head.appendChild(youtubeApi);
-    }
-
-    if (hero && motionToggle) {
-      motionToggle.addEventListener("click", function () {
-        var paused = hero.classList.toggle("is-motion-paused");
-        if (heroPlayer) {
-          if (paused) {
-            window.clearTimeout(heroClipTimer);
-            heroPlayer.pauseVideo();
-          } else {
-            heroPlayer.playVideo();
-            scheduleNextHeroClip(true);
-          }
-        }
-        motionToggle.setAttribute("aria-pressed", String(paused));
-        motionToggle.setAttribute("aria-label", paused ? "Play background motion" : "Pause background motion");
-        motionToggle.querySelector("i").className = paused ? "fas fa-play" : "fas fa-pause";
-      });
-    }
-
-    function updateScrollProgress() {
-      var maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-      var ratio = maxScroll > 0 ? (window.scrollY / maxScroll) * 100 : 0;
-      progressBar.style.width = ratio + "%";
-      if (masthead) {
-        masthead.classList.toggle("is-scrolled", window.scrollY > 32);
-      }
-    }
-
-    window.addEventListener("scroll", updateScrollProgress, { passive: true });
-    window.addEventListener("resize", updateScrollProgress);
-    updateScrollProgress();
-
-    if (!("IntersectionObserver" in window)) {
-      return;
-    }
-
-    var observer = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("is-visible");
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.12 });
-
-    var sectionObserver = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (!entry.isIntersecting) {
-          return;
-        }
-        navLinks.forEach(function (link) {
-          link.classList.toggle("is-active", new URL(link.href).hash === "#" + entry.target.id);
-        });
-      });
-    }, { rootMargin: "-35% 0px -55%", threshold: 0 });
-
-    navLinks.forEach(function (link) {
-      var section = document.querySelector(new URL(link.href).hash);
-      if (section) {
-        sectionObserver.observe(section);
-      }
-    });
-
-    document.querySelectorAll(".reveal-block").forEach(function (element) {
-      var children = element.querySelectorAll(".feature-card, .capability-card, .publication-row, .stack-item, .signal-card, .editorial-note, .metrics-panel, .identity-panel, .contact-panel, .profile-portrait, .course-card, .testimonial-card, .methods-visual");
-      children.forEach(function (child, index) {
-        child.style.setProperty("--stagger-delay", (index * 90) + "ms");
-        child.classList.add("reveal-stagger");
-        child.classList.add("glass-interactive");
-      });
-      observer.observe(element);
-    });
-
-    document.querySelectorAll(".glass-interactive").forEach(function (element) {
-      element.addEventListener("pointermove", function (event) {
-        var rect = element.getBoundingClientRect();
-        element.style.setProperty("--pointer-x", (event.clientX - rect.left) + "px");
-        element.style.setProperty("--pointer-y", (event.clientY - rect.top) + "px");
-      });
-    });
-  });
-</script>
