@@ -30,7 +30,7 @@ redirect_from:
       </h1>
 
       <div class="hero-side">
-        <p class="hero-lead">I connect machine learning, digital twins, energy modeling, and carbon assessment to make construction and retrofit decisions more measurable, practical, and resilient.</p>
+        <p class="hero-lead">I bring machine learning, digital twins, energy modeling, and carbon accounting together so construction and retrofit teams can measure what matters before they build.</p>
         <div class="hero-cta-row">
           <a class="btn btn--primary" href="#experience">Explore Research <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
           <a class="btn btn--ghost" href="/Baowen_Zhang_CV.pdf" target="_blank" rel="noopener">Curriculum Vitae</a>
@@ -69,8 +69,8 @@ redirect_from:
   <div class="profile__copy">
     <p class="section-kicker"><span>01</span>Profile</p>
     <h2>Building better decisions from the data construction <em>already creates.</em></h2>
-    <p>I am an Assistant Professor of Construction Management at Colorado State University Pueblo. My work sits where building science, construction operations, and computation meet: I develop practical ways to measure energy, carbon, cost, and performance before they become expensive field decisions.</p>
-    <p>From machine-learning models for urban retrofits to digital-twin workflows and construction-stage energy assessment for mass timber, I focus on research that can move beyond a paper and into classrooms, project teams, and the built environment.</p>
+    <p>I am an Assistant Professor of Construction Management at Colorado State University Pueblo. My work sits at the intersection of building science, construction operations, and computation, where I develop practical ways to quantify energy, carbon, cost, and performance early, before they turn into expensive decisions in the field.</p>
+    <p>My projects range from machine-learning models for urban retrofits to digital-twin workflows and construction-stage energy assessment for mass timber. What connects them is a simple test: the work should outlive the paper and prove useful in classrooms, on project teams, and in the built environment.</p>
   </div>
 
   <figure class="profile-portrait">
@@ -83,7 +83,7 @@ redirect_from:
   <div class="profile__aside">
     <div class="editorial-note">
       <p class="panel-label">Current Focus</p>
-      <p>Urban retrofit forecasting, automated IFC-to-energy pipelines, and carbon accounting in timber construction.</p>
+      <p>Forecasting urban retrofits, automating IFC-to-energy pipelines, and accounting for carbon in timber construction.</p>
     </div>
     <div class="editorial-note">
       <p class="panel-label">Methods</p>
@@ -116,27 +116,27 @@ redirect_from:
     </li>
     <li class="timeline__item">
       <p class="timeline__date">Oct 2026</p>
-      <p>My first-authored research on construction-stage energy consumption in mass timber buildings was featured in the USDA Forest Service's <em>Rooted in Research</em> newsletter during National Forest Products Week.</p>
+      <p>My first-authored study on construction-stage energy use in mass timber buildings was featured in the USDA Forest Service's <em>Rooted in Research</em> newsletter during National Forest Products Week.</p>
     </li>
     <li class="timeline__item">
       <p class="timeline__date">Oct 2026</p>
-      <p>Published a sustainability-based multicriteria analysis of concrete designed to maximize the use of local waste materials in <em>Cleaner Engineering and Technology</em>.</p>
+      <p>Published a multicriteria sustainability analysis of concrete designed to maximize the use of local waste materials, in <em>Cleaner Engineering and Technology</em>.</p>
     </li>
     <li class="timeline__item">
       <p class="timeline__date">Jul 2026</p>
-      <p>Published a dual-track assessment framework for quantifying construction-stage energy use in mass timber buildings in <em>Case Studies in Construction Materials</em>.</p>
+      <p>Published a dual-track framework for quantifying construction-stage energy use in mass timber buildings, in <em>Case Studies in Construction Materials</em>.</p>
     </li>
     <li class="timeline__item">
       <p class="timeline__date">Jun 2026</p>
-      <p>Published a machine learning decision-support framework for economically prioritizing multifamily energy retrofits under New York City's Local Law 97 in the <em>Journal of Building Engineering</em>.</p>
+      <p>Published a machine-learning decision-support framework that prioritizes multifamily energy retrofits on economic grounds under New York City's Local Law 97, in the <em>Journal of Building Engineering</em>.</p>
     </li>
     <li class="timeline__item">
       <p class="timeline__date">Jan 2026</p>
-      <p>Joined Colorado State University Pueblo as Assistant Professor of Construction Management.</p>
+      <p>Joined Colorado State University Pueblo as an Assistant Professor of Construction Management.</p>
     </li>
     <li class="timeline__item">
       <p class="timeline__date">Dec 2025</p>
-      <p>Completed Ph.D. studies in Sustainable Construction Management and Wood Science at SUNY-ESF.</p>
+      <p>Completed my Ph.D. in Sustainable Construction Management and Wood Science at SUNY-ESF.</p>
     </li>
   </ol>
 </section>
@@ -144,7 +144,7 @@ redirect_from:
 <section class="section-band" id="experience">
   <div class="section-head">
     <p class="section-kicker"><span>03</span>Research Focus</p>
-    <h2>Work organized around forecasting, digital infrastructure, and <em>decarbonization.</em></h2>
+    <h2>Research built on three threads: forecasting, digital infrastructure, and <em>decarbonization.</em></h2>
   </div>
 
   <div class="feature-grid">
@@ -156,7 +156,7 @@ redirect_from:
       </div>
       <div class="feature-card__body">
         <h3>Urban Energy Retrofit and LL97</h3>
-        <p>Machine-learning models for prioritizing multifamily energy conservation measures under New York City's Local Law 97.</p>
+        <p>Machine-learning models that rank energy conservation measures for multifamily buildings under New York City's Local Law 97.</p>
       </div>
     </article>
     <article class="feature-card feature-card--visual">
@@ -167,7 +167,7 @@ redirect_from:
       </div>
       <div class="feature-card__body">
         <h3>AI-Assisted Digital Twin and IFC Workflows</h3>
-        <p>Semantic IFC pipelines combining point-cloud capture, handheld thermography, AI agents, and EnergyPlus-ready models.</p>
+        <p>Semantic IFC pipelines that use point-cloud capture, handheld thermography, and AI agents to produce EnergyPlus-ready models.</p>
       </div>
     </article>
     <article class="feature-card feature-card--visual">
@@ -178,7 +178,7 @@ redirect_from:
       </div>
       <div class="feature-card__body">
         <h3>Construction-Stage Energy and Embodied Carbon</h3>
-        <p>Dual-track A5 assessment for mass-timber and hybrid buildings, alongside material and life-cycle carbon research.</p>
+        <p>A dual-track A5 assessment for mass-timber and hybrid buildings, paired with material and life-cycle carbon research.</p>
       </div>
     </article>
   </div>
@@ -189,24 +189,24 @@ redirect_from:
   <div class="projects-band__inner">
     <div class="section-head">
       <p class="section-kicker"><span>04</span>Projects</p>
-      <h2>Research projects that define the <em>current arc</em> of my work.</h2>
+      <h2>The projects shaping the <em>current arc</em> of my work.</h2>
     </div>
 
     <div class="project-list">
       <article class="project-item">
         <p class="project-item__letter" aria-hidden="true">A</p>
         <h3>IFC-Based Digital Twin for Automated Energy Modeling</h3>
-        <p>Built workflows that enrich IFC with thermal and HVAC semantics, connect Rhino and Grasshopper with EnergyPlus, and support physical-to-digital feedback for existing-building analysis.</p>
+        <p>I built workflows that enrich IFC models with thermal and HVAC semantics, link Rhino and Grasshopper to EnergyPlus, and feed field measurements back into the digital model for existing-building analysis.</p>
       </article>
       <article class="project-item">
         <p class="project-item__letter" aria-hidden="true">B</p>
         <h3>Sustainable Materials, Low-Carbon SCMs, and Mass-Timber LCA</h3>
-        <p>Evaluated high-replacement blended concrete and timber systems through mechanical testing, techno-economic analysis, and cradle-to-gate life cycle assessment.</p>
+        <p>I evaluated high-replacement blended concretes and timber systems through mechanical testing, techno-economic analysis, and cradle-to-gate life-cycle assessment.</p>
       </article>
       <article class="project-item">
         <p class="project-item__letter" aria-hidden="true">C</p>
         <h3>Stochastic Modeling for Infrastructure Asset Management</h3>
-        <p>Developed AHP-Markov deterioration models to help infrastructure owners forecast service life and allocate maintenance resources more strategically.</p>
+        <p>I developed AHP-Markov deterioration models that help infrastructure owners forecast service life and direct maintenance resources where they matter most.</p>
       </article>
     </div>
   </div>
@@ -218,7 +218,7 @@ redirect_from:
       <p class="section-kicker"><span>05</span>Research Methods</p>
       <h2>Computational methods and technical infrastructure for <em>reproducible</em> building research.</h2>
     </div>
-    <p>This research environment connects field observations, semantic building data, simulation, machine learning, and life-cycle evidence in traceable workflows.</p>
+    <p>Field observations, semantic building data, simulation, machine learning, and life-cycle evidence come together in workflows that can be traced from input to result.</p>
   </div>
 
   <figure class="methods-visual">
@@ -272,13 +272,13 @@ redirect_from:
       <p class="section-kicker"><span>06</span>Teaching</p>
       <h2>Construction education grounded in clear communication and <em>real project decisions.</em></h2>
     </div>
-    <p>My courses connect technical fundamentals with the contracts, systems, costs, and collaboration practices students will encounter in the field.</p>
+    <p>My courses tie technical fundamentals to the contracts, systems, costs, and teamwork students will meet on real projects.</p>
   </div>
 
   <nav class="course-finder" aria-label="Find a course">
     <div>
       <p class="panel-label">Find a course</p>
-      <p>Select a course code to open its details.</p>
+      <p>Pick a course code to jump to its details.</p>
     </div>
     <div class="course-chip-row">
       <a href="#course-cet-305">CET 305</a>
@@ -369,7 +369,7 @@ redirect_from:
 <section class="section-band" id="publications">
   <div class="section-head">
     <p class="section-kicker"><span>07</span>Selected Publications</p>
-    <h2>A compact set of papers that reflects the <em>direction</em> of my current work.</h2>
+    <h2>A short list of papers that shows the <em>direction</em> of my current work.</h2>
   </div>
 
   <div class="publication-list">
@@ -381,7 +381,7 @@ redirect_from:
         <p class="publication-row__meta">Journal of Building Engineering - 2026 - Vol. 128 - 116461</p>
         <h3><a href="https://www.sciencedirect.com/science/article/pii/S2352710226012829" target="_blank" rel="noopener">An integrated machine learning approach to economically prioritize energy conservation measures for multifamily buildings under New York City's Local Law 97</a></h3>
         <p class="publication-row__authors"><strong>Baowen Zhang</strong>, P. Crovella</p>
-        <p>Developed predictive retrofit models using XGBoost and LSTM to estimate compliance-driven building upgrades for New York City multifamily housing.</p>
+        <p>Uses XGBoost and LSTM models to prioritize energy conservation measures for New York City multifamily buildings working toward Local Law 97 compliance.</p>
         <div class="publication-row__tags">
           <span><i class="fas fa-chart-line" aria-hidden="true"></i> ML</span>
           <span><i class="fas fa-city" aria-hidden="true"></i> Retrofit</span>
@@ -398,7 +398,7 @@ redirect_from:
         <p class="publication-row__meta">Case Studies in Construction Materials - 2026 - e06280</p>
         <h3><a href="https://www.sciencedirect.com/science/article/pii/S2214509526005310" target="_blank" rel="noopener">Quantifying construction-stage (A5) energy consumption in mass timber buildings: A dual-track assessment framework</a></h3>
         <p class="publication-row__authors"><strong>Baowen Zhang</strong>, Hongmei Gu, Paul Crovella</p>
-        <p>Proposed a dual-track framework to measure A5 construction energy use and improve embodied-carbon accounting in timber construction projects.</p>
+        <p>Proposes a dual-track framework for measuring A5 construction energy use, tightening embodied-carbon accounting for timber projects.</p>
         <div class="publication-row__tags">
           <span><i class="fas fa-tree" aria-hidden="true"></i> Mass Timber</span>
           <span><i class="fas fa-cloud" aria-hidden="true"></i> Carbon</span>
@@ -415,7 +415,7 @@ redirect_from:
         <p class="publication-row__meta">Cleaner Engineering and Technology - 2026 - 101335</p>
         <h3><a href="https://doi.org/10.1016/j.clet.2026.101335" target="_blank" rel="noopener">Designing sustainable concrete to maximize the use of local waste materials: Mechanical, durability, and sustainability-based multicriteria analysis</a></h3>
         <p class="publication-row__authors"><strong>Baowen Zhang</strong>, Minhajul Islam Aman, Paul Crovella, Md. Uzzal Hossain</p>
-        <p>Evaluates concrete mixtures designed to maximize local waste-material use through mechanical, durability, and sustainability-based multicriteria analysis.</p>
+        <p>Evaluates concrete mixtures that maximize local waste materials, weighing mechanical performance, durability, and sustainability in a multicriteria analysis.</p>
         <div class="publication-row__tags">
           <span><i class="fas fa-recycle" aria-hidden="true"></i> Local Waste</span>
           <span><i class="fas fa-cubes" aria-hidden="true"></i> Concrete</span>
@@ -432,7 +432,7 @@ redirect_from:
         <p class="publication-row__meta">Chemical Engineering Journal - 2024 - Vol. 499 - 156142</p>
         <h3><a href="https://www.sciencedirect.com/science/article/pii/S1385894724076332" target="_blank" rel="noopener">Green co-solvent-assisted one-pot synthesis of high-performance flexible lignin polyurethane foam</a></h3>
         <p class="publication-row__authors">Mairui Zhang, Soyeon Jeong, Woongbi Cho, Jiae Ryu, <strong>Baowen Zhang</strong>, Paul Crovella, Arthur J. Ragauskas, Jeong Jae Wie, Chang Geun Yoo</p>
-        <p>Improved the flexibility and strength of lignin-based polyurethane foam with a greener synthesis route while maintaining competitive insulation performance.</p>
+        <p>Introduces a greener synthesis route that makes lignin-based polyurethane foam more flexible and stronger while keeping its insulation performance competitive.</p>
         <div class="publication-row__tags">
           <span><i class="fas fa-flask" aria-hidden="true"></i> Materials</span>
           <span><i class="fas fa-recycle" aria-hidden="true"></i> Bio-based</span>
@@ -449,7 +449,7 @@ redirect_from:
         <p class="publication-row__meta">Transportation Research Record - 2022</p>
         <h3><a href="https://trid.trb.org/view/1996319" target="_blank" rel="noopener">An Integrated Analytic Hierarchy Process-Markov Model for Rating Condition and Predicting Service Life of Retaining Walls</a></h3>
         <p class="publication-row__authors">E. Wang, A. Lawal, W. Wu, M. A. Onyango, D. Wu, <strong>Baowen Zhang</strong></p>
-        <p>Built an AHP-Markov framework for retaining-wall condition rating and long-term service-life prediction in transportation infrastructure.</p>
+        <p>Builds an AHP-Markov framework that rates retaining-wall condition and predicts long-term service life for transportation infrastructure.</p>
         <div class="publication-row__tags">
           <span><i class="fas fa-road" aria-hidden="true"></i> Infrastructure</span>
           <span><i class="fas fa-project-diagram" aria-hidden="true"></i> Markov</span>
@@ -459,6 +459,14 @@ redirect_from:
     </article>
   </div>
 </section>
+
+<div class="marquee-xl" aria-hidden="true">
+  <div class="marquee-xl__track">
+    <div class="marquee-xl__group">
+      <span>Energy</span><span>Carbon</span><span>Digital Twins</span><span>Mass Timber</span><span>Collaboration</span>
+    </div>
+  </div>
+</div>
 
 <section class="section-band section-split-dual" id="collaboration">
   <div id="education">
@@ -496,11 +504,11 @@ redirect_from:
     <div class="contact-panel__glow" aria-hidden="true"></div>
     <p class="section-kicker"><span>09</span>Contact</p>
     <h2>Open to collaboration and <em>conversation.</em></h2>
-    <p>I am especially interested in collaborations around building energy, retrofit analytics, digital twins, embodied carbon, and construction informatics.</p>
+    <p>I welcome collaborations on building energy, retrofit analytics, digital twins, embodied carbon, and construction informatics.</p>
     <ul class="collaboration-list">
       <li>Research partnerships on energy, carbon, and digital-twin workflows</li>
       <li>Student projects that turn construction data into practical tools</li>
-      <li>Industry conversations around retrofit planning and low-carbon delivery</li>
+      <li>Industry conversations about retrofit planning and low-carbon delivery</li>
     </ul>
     <div class="hero-cta-row">
       <a class="btn btn--primary" href="mailto:bzhang13@syr.edu">Email Me <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
