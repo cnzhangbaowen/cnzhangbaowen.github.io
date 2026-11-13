@@ -86,10 +86,13 @@ redirect_from:
   <div>
     <div class="section-head section-head--compact">
       <p class="section-kicker">Recent News</p>
-      <h2>Short updates and recent signals.</h2>
     </div>
 
     <div class="stack-panel">
+      <article class="stack-item">
+        <p class="stack-item__date">Dec 2026</p>
+        <p>Invited to present my ongoing research on concrete Environmental Product Declarations (EPDs), embodied-carbon benchmarking, and low-carbon concrete procurement at the New York State Embodied Carbon Working Group's December 2026 meeting.</p>
+      </article>
       <article class="stack-item">
         <p class="stack-item__date">Oct 2026</p>
         <p>My first-authored research on construction-stage energy consumption in mass timber buildings was featured in the USDA Forest Service's <em>Rooted in Research</em> newsletter during National Forest Products Week.</p>
