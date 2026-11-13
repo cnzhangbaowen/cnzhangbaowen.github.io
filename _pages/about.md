@@ -91,7 +91,7 @@ redirect_from:
     <div class="stack-panel">
       <article class="stack-item">
         <p class="stack-item__date">Dec 2026</p>
-        <p>Invited to present my ongoing research on concrete Environmental Product Declarations (EPDs), embodied-carbon benchmarking, and low-carbon concrete procurement at the New York State Embodied Carbon Working Group's December 2026 meeting.</p>
+        <p>Invited to present my ongoing research on concrete EPDs, embodied-carbon benchmarking, and concrete procurement at the New York State Embodied Carbon Working Group's meeting.</p>
       </article>
       <article class="stack-item">
         <p class="stack-item__date">Oct 2026</p>
